@@ -1,0 +1,18 @@
+AddDefaultCharset utf-8
+
+RewriteEngine on
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . index.php
+
+Options +FollowSymlinks
+RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*h.yandex-team\.ru\ [NC,OR]
+RewriteRule .* – [F]
+
+Options -Indexes
+
+ErrorDocument 403 /errors/403.php
+ErrorDocument 404 /errors/404.php
+
