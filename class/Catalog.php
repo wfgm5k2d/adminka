@@ -9,7 +9,10 @@ class Catalog{
 	{
 		$arItems = ACDatabase::getAll("SELECT * FROM catalog WHERE parent=?", $parent);
 
-		return $arItems;
+        if(!empty($arItems))
+            return $arItems;
+        else
+            echo 'The array is empty. Check call parameters.';
 	}
 
     /**
@@ -20,7 +23,10 @@ class Catalog{
 	{
 		$arItems = ACDatabase::getRow("SELECT url FROM catalog WHERE id=?", $id);
 
-		return $arItems['url'];
+        if(!empty($arItems['url']))
+            return $arItems['url'];
+        else
+            echo 'The array is empty. Check call parameters.';
 	}
 
     /**
@@ -31,7 +37,10 @@ class Catalog{
 	{
 		$arItems = ACDatabase::getRow("SELECT id FROM catalog WHERE url=?", $url);
 
-		return $arItems['id'];
+        if(!empty($arItems['id']))
+            return $arItems['id'];
+        else
+            echo 'The array is empty. Check call parameters.';
 	}
 
     /**
@@ -42,6 +51,9 @@ class Catalog{
 	{
 		$arItems = ACDatabase::getRow("SELECT name FROM catalog WHERE url=?", $url);
 
-		return $arItems['name'];
+        if(!empty($arItems['name']))
+            return $arItems['name'];
+        else
+            echo 'The array is empty. Check call parameters.';
 	}
 }
