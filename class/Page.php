@@ -1,43 +1,31 @@
 <?php
 
-class Page {
+class ACPage {
+
+    /**
+     * @return bool
+     */
     public static function getPage()
     {
-        $connect = new ACconfig();
-        $connections = $connect->connect();
+        $arItems = ACDatabase::getAll("SELECT * FROM page");
 
-        $sql = 'SELECT * FROM page';
-        $query = $GLOBALS['mysqli']->query($sql);
-
-        $k = 0;
-        while($record = mysqli_fetch_array($query, MYSQLI_ASSOC))
-        {
-            $PAGE[$k] = $record;
-            $k++;
-        }
-        if(!empty($PAGE))
-            return $PAGE;
+        if(!empty($arItems))
+            return $arItems;
         else
-            return false;
+            return ACErrors::getError(1);
     }
 
+    /**
+     * @param $url
+     * @return bool
+     */
     public static function getContentPage($url)
     {
-        $connect = new ACconfig();
-        $connections = $connect->connect();
+        $arItems = ACDatabase::getAll("SELECT * FROM page WHERE url=?", $url);
 
-        $sql = 'SELECT * FROM page WHERE url="'.$url.'"';
-        $query = $GLOBALS['mysqli']->query($sql);
-
-        $k = 0;
-        while($record = mysqli_fetch_array($query, MYSQLI_ASSOC))
-        {
-            $getContentPage[$k] = $record;
-            $k++;
-        }
-        if(!empty($getContentPage))
-            return $getContentPage;
+        if(!empty($arItems))
+            return $arItems;
         else
-            return false;
+            return ACErrors::getError(1);
     }
 }

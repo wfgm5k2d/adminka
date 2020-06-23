@@ -10,4 +10,4 @@ include "Catalog.php";
 include "function.php";
 include "Item.php";
 include "Message.php";
-include "option.class.php";
+include "Option.php";

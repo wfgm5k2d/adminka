@@ -1,43 +1,30 @@
 <?php
 
-class Reviews {
-	public static function getReviews()
+class ACReviews {
+
+    /**
+     * @return bool
+     */
+    public static function getReviews()
 	{
-		$connect = new ACconfig();
-        $connections = $connect->connect();
+        $arItems = ACDatabase::getAll("SELECT * FROM reviews");
 
-        $sql = 'SELECT * FROM reviews';
-        $query = $GLOBALS['mysqli']->query($sql);
-
-        $k = 0;
-        while($record = mysqli_fetch_array($query, MYSQLI_ASSOC))
-        {
-            $REVIEWS[$k] = $record;
-            $k++;
-        }
-        if(!empty($REVIEWS))
-            return $REVIEWS;
+        if(!empty($arItems))
+            return $arItems;
         else
-            return false;
+            return ACErrors::getError(1);
 	}
 
+    /**
+     * @return bool
+     */
     public static function getEditedReviews()
     {
-        $connect = new ACconfig();
-        $connections = $connect->connect();
+        $arItems = ACDatabase::getAll("SELECT * FROM reviews WHERE hide = 1");
 
-        $sql = "SELECT * FROM reviews WHERE hide = '1'";
-        $query = $GLOBALS['mysqli']->query($sql);
-
-        $k = 0;
-        while($record = mysqli_fetch_array($query, MYSQLI_ASSOC))
-        {
-            $REVIEWSEDITED[$k] = $record;
-            $k++;
-        }
-        if(!empty($REVIEWSEDITED))
-            return $REVIEWSEDITED;
+        if(!empty($arItems))
+            return $arItems;
         else
-            return false;
+            return ACErrors::getError(1);
     }
 }
