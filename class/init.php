@@ -8,6 +8,6 @@ include "Modules.php";
 include "Reviews.php";
 include "Catalog.php";
 include "function.php";
-include "item.class.php";
+include "Item.php";
 include "message.class.php";
 include "option.class.php";
