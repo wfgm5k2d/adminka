@@ -3,39 +3,29 @@
 
 class Modules
 {
+    /**
+     * @return mixed
+     */
     public static function getModule()
     {
-        $connect = new ACconfig();
+        $arItems = ACDatabase::getAll("SELECT * FROM moduls WHERE hide = 1");
 
-        $connections = $connect->connect();
-
-        $sql = "SELECT * FROM moduls WHERE hide = '1'";
-        $query = $GLOBALS['mysqli']->query($sql);
-
-        $k = 0;
-        while($record = mysqli_fetch_array($query, MYSQLI_ASSOC))
-        {
-            $MODULE[$k] = $record;
-            $k++;
-        }
-        return $MODULE;
+        if(!empty($arItems))
+            return $arItems;
+        else
+            return ACErrors::getError(1);
     }
 
+    /**
+     * @return mixed
+     */
     public static function getModuleSale()
     {
-        $connect = new ACconfig();
+        $arItems = ACDatabase::getAll("SELECT * FROM moduls");
 
-        $connections = $connect->connect();
-
-        $sql = "SELECT * FROM moduls";
-        $query = $GLOBALS['mysqli']->query($sql);
-
-        $k = 0;
-        while($record = mysqli_fetch_array($query, MYSQLI_ASSOC))
-        {
-            $MODULESALE[$k] = $record;
-            $k++;
-        }
-        return $MODULESALE;
+        if(!empty($arItems))
+            return $arItems;
+        else
+            return ACErrors::getError(1);
     }
 }

@@ -1,4 +1,9 @@
 <?php
+
+/**
+ * @param $string
+ * @return string
+ */
 function rus2translit($string) {
     $converter = array(
         'а' => 'a',   'б' => 'b',   'в' => 'v',
@@ -27,6 +32,11 @@ function rus2translit($string) {
     );
     return strtr($string, $converter);
 }
+
+/**
+ * @param $str
+ * @return string
+ */
 function str2url($str) {
     // переводим в транслит
     $str = rus2translit($str);
@@ -38,6 +48,10 @@ function str2url($str) {
     $str = trim($str, "-");
     return $str;
 }
+
+/**
+ * @return string
+ */
 function curPageURL() {
             $pageURL = 'http';
             if(isset($_SERVER["HTTPS"]))
@@ -52,22 +66,39 @@ function curPageURL() {
             }
             return $pageURL;
         }
+
+/**
+ * @param $in
+ * @return string
+ */
 function filt($in) # Максимальная фильтрация для ввода
 {
     return trim(strip_tags(htmlspecialchars(mysqli_escape_string($in)))); // Добавить $link, $city = mysqli_real_escape_string($link, $city);
 }
 
+/**
+ * @param $in
+ * @return string
+ */
 function filtsmall($in) # Минимальная фильтрация для ввода
 {
     return trim(mysqli_escape_string($in));
 }
 
+/**
+ * @param $in
+ * @return string|string[]
+ */
 function filtslash($in) # Фильтрация слешей для вывода
 {
     return str_replace("\\","",$in);
 }
 
 //Замена номера на +7
+/**
+ * @param string $phone
+ * @return string|string[]
+ */
 function phone_format($phone = '')
 {
     $val = preg_replace('/[^0-9]/', '', $phone);
@@ -77,6 +108,10 @@ function phone_format($phone = '')
 }
 
 //Чистка значений при выводе из БД
+/**
+ * @param array $arg
+ * @return string
+ */
 function see($arg = [])
 {
     $arg = htmlspecialchars_decode($arg);
@@ -84,6 +119,10 @@ function see($arg = [])
 }
 
 //Удаление всех тегов
+/**
+ * @param string $str
+ * @return string
+ */
 function tag($str = '')
 {
     return strip_tags($str);

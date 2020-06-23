@@ -9,6 +9,6 @@ class Blocks
         if(!empty($query['value']))
             return $query['value'];
         else
-            return 'Error 1: The array is empty. Check call parameters.';
+            return ACErrors::getError(1);
     }
 }

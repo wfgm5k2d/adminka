@@ -3,111 +3,71 @@
 
 class Lists
 {
+    /**
+     * @return array|void
+     */
     public static function getFullList()
     {
-        $connect = new ACconfig();
+        $arItems = ACDatabase::getAll('SELECT * FROM list');
 
-        $connections = $connect->connect();
-        // Составляем запрос
-        $sql = 'SELECT * FROM list';
-        $result = $GLOBALS['mysqli']->query($sql);
-
-        // Перебор результата
-        $k = 0;
-        while ($record = mysqli_fetch_array($result, MYSQLI_ASSOC)) {
-            $LIST[$k] = $record;
-            $k++;
-        }
-
-        if(!empty($LIST))
-            return $LIST;
+        if(!empty($arItems))
+            return $arItems;
         else
-            return 'Массив пустой';
+            return ACErrors::getError(1);
     }
 
+    /**
+     * @param int $parent
+     * @return mixed|void
+     */
     public static function getParentList($parent = 0)
     {
-        $connect = new ACconfig();
+        $arItems = ACDatabase::getRow("SELECT * FROM list WHERE parent = ?", $parent);
 
-        $connections = $connect->connect();
-        // Родительская лента
-        $sql1 = "SELECT * FROM list WHERE parent = '$parent'";
-        $result1 = $GLOBALS['mysqli']->query($sql1);
-
-        // Перебор результата
-        $k1 = 0;
-        while ($record1 = mysqli_fetch_array($result1, MYSQLI_ASSOC)) {
-            $PLIST[$k1] = $record1;
-            $k1++;
-        }
-
-        if(!empty($PLIST))
-            return $PLIST;
+        if(!empty($arItems))
+            return $arItems;
         else
-            return 'Массив пустой';
+            return ACErrors::getError(1);
     }
 
+    /**
+     * @return array|void
+     */
     public static function getChildList()
     {
-        $connect = new ACconfig();
+        $arItems = ACDatabase::getAll('SELECT * FROM list WHERE parent != 0');
 
-        $connections = $connect->connect();
-        // Детская лента
-        $sql2 = 'SELECT * FROM list WHERE parent != 0';
-        $result2 = $GLOBALS['mysqli']->query($sql2);
-
-        // Перебор результата
-        $k2 = 0;
-        while ($record2 = mysqli_fetch_array($result2, MYSQLI_ASSOC)) {
-            $CHLIST[$k2] = $record2;
-            $k2++;
-        }
-
-        if(!empty($CHLIST))
-            return $CHLIST;
+        if(!empty($arItems))
+            return $arItems;
         else
-            return 'Массив пустой';
+            return ACErrors::getError(1);
     }
 
+    /**
+     * @param $id
+     * @return array|void
+     */
     public static function getChildByIdList($id)
     {
-        $connect = new ACconfig();
+        $arItems = ACDatabase::getAll('SELECT * FROM list WHERE id = ?', $id);
 
-        $connections = $connect->connect();
-        // Детская лента
-        $sql2 = "SELECT * FROM list WHERE id = '$id'";
-        $result2 = $GLOBALS['mysqli']->query($sql2);
-
-        // Перебор результата
-        $k2 = 0;
-        while ($record2 = mysqli_fetch_array($result2, MYSQLI_ASSOC)) {
-            $CHLIST[$k2] = $record2;
-            $k2++;
-        }
-
-        if(!empty($CHLIST))
-            return $CHLIST;
+        if(!empty($arItems))
+            return $arItems;
         else
-            return 'Массив пустой';
+            return ACErrors::getError(1);
     }
 
+    /**
+     * @param $url
+     * @return array|void
+     */
     public static function getContentList($url)
     {
-        $connect = new ACconfig();
-        $connections = $connect->connect();
+        $arItems = ACDatabase::getAll('SELECT * FROM list WHERE url = ?', $url);
 
-        $sql = 'SELECT * FROM list WHERE url="'.$url.'"';
-        $query = $GLOBALS['mysqli']->query($sql);
-
-        $k = 0;
-        while($record = mysqli_fetch_array($query, MYSQLI_ASSOC))
-        {
-            $getContentList[$k] = $record;
-            $k++;
-        }
-        if(!empty($getContentList))
-            return $getContentList;
+        if(!empty($arItems))
+            return $arItems;
         else
-            return false;
+            return ACErrors::getError(1);
     }
 }

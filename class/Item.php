@@ -8,7 +8,7 @@ class Item{
         if(!empty($arItems))
             return $arItems;
         else
-            return 'Error 1: The array is empty. Check call parameters.';
+            return ACErrors::getError(1);
 	}
 
     public static function getItemsFull()
@@ -18,7 +18,7 @@ class Item{
         if(!empty($arItems))
             return $arItems;
         else
-            return 'Error 1: The array is empty. Check call parameters.';
+            return ACErrors::getError(1);
 	}
 
     public static function getItemsId($id)
@@ -28,7 +28,7 @@ class Item{
         if(!empty($arItems))
             return $arItems;
         else
-            return 'Error 1: The array is empty. Check call parameters.';
+            return ACErrors::getError(1);
 	}
 }
 ?>

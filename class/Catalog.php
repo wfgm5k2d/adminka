@@ -12,7 +12,7 @@ class Catalog{
         if(!empty($arItems))
             return $arItems;
         else
-            return 'Error 1: The array is empty. Check call parameters.';
+            return ACErrors::getError(1);
 	}
 
     /**
@@ -26,7 +26,7 @@ class Catalog{
         if(!empty($arItems['url']))
             return $arItems['url'];
         else
-            return 'Error 1: The array is empty. Check call parameters.';
+            return ACErrors::getError(1);
 	}
 
     /**
@@ -40,7 +40,7 @@ class Catalog{
         if(!empty($arItems['id']))
             return $arItems['id'];
         else
-            return 'Error 1: The array is empty. Check call parameters.';
+            return ACErrors::getError(1);
 	}
 
     /**
@@ -54,6 +54,6 @@ class Catalog{
         if(!empty($arItems['name']))
             return $arItems['name'];
         else
-            return 'Error 1: The array is empty. Check call parameters.';
+            return ACErrors::getError(1);
 	}
 }

@@ -1,19 +1,16 @@
 <?php
 class Message{
-    function msg(){
-        include('config.php');
 
-        // Составляем запрос
-        $sql = "SELECT * FROM message";
-        $result = mysqli_query($GLOBALS['mysqli'], $sql);
+    /**
+     * @return array|void
+     */
+    public static function getMessage()
+    {
+        $arItems = ACDatabase::getAll("SELECT * FROM message");
 
-        // Перебор результата
-        $k = 0;
-        while($record = mysqli_fetch_array($result, MYSQLI_ASSOC))
-        {
-            $MSG[$k] = $record;
-            $k++;
-        }
-        return $MSG;
+        if(!empty($arItems))
+            return $arItems;
+        else
+            return ACErrors::getError(1);
     }
 }
