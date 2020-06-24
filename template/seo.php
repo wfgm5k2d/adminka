@@ -1,0 +1,2 @@
+<?php
+echo SITE_TEMPLATE_PATH;
