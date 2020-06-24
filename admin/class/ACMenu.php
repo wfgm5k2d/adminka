@@ -1,7 +1,7 @@
 <?php
 
 
-class Menu
+class ACMenu
 {
     /**
      * @return array|void

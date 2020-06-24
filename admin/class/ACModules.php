@@ -1,7 +1,7 @@
 <?php
 
 
-class Modules
+class ACModules
 {
     /**
      * @return mixed

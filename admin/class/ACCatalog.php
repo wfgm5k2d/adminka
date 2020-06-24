@@ -1,15 +1,15 @@
 <?php
 
 
-class ACCatalog{
-
+class ACCatalog
+{
     /**
      * @param $parent
      * @return array
      */
     public static function getFull()
 	{
-		$arItems = ACDatabase::getAll("SELECT * FROM catalog");
+        $arItems = ACDatabase::getAll("SELECT * FROM catalog");
 
         if(!empty($arItems))
             return $arItems;
@@ -63,7 +63,7 @@ class ACCatalog{
      */
     public static function getId($url)
 	{
-		$arItems = ACDatabase::getRow("SELECT id FROM catalog WHERE url=?", $url);
+        $arItems = ACDatabase::getRow("SELECT id FROM catalog WHERE url=?", $url);
 
         if(!empty($arItems['id']))
             return $arItems['id'];
@@ -77,7 +77,7 @@ class ACCatalog{
      */
     public static function getName($url)
 	{
-		$arItems = ACDatabase::getRow("SELECT name FROM catalog WHERE url=?", $url);
+        $arItems = ACDatabase::getRow("SELECT name FROM catalog WHERE url=?", $url);
 
         if(!empty($arItems['name']))
             return $arItems['name'];
@@ -96,7 +96,7 @@ class ACCatalog{
 
         ($sUrl == NULL) ? str2url($sName) : $sUrl;
 
-        $arItems = ACDatabase::set("INSERT INTO `catalog` SET name = ?, url = ?", array($sName, $sUrl));
+        $arItems = ACDatabase::add("INSERT INTO `catalog` SET name = ?, url = ?", array($sName, $sUrl));
 
         return $arItems;
     }
@@ -112,14 +112,20 @@ class ACCatalog{
     {
         $sName = filt($sName);
 
-        $sUrl = str2url($sName);
-
         ($sUrl == NULL) ? str2url($sName) : $sUrl;
 
         $nParent = filt($nParent);
 
-        $arItems = ACDatabase::add("INSERT INTO `catalog` (name, url, parent) VALUES ({$sName},{$sUrl}, {$nParent})");
+        $arItems = ACDatabase::add("INSERT INTO `catalog` SET name = ?, url = ?, parent = ?", array($sName, $sUrl, $nParent));
 
         return $arItems;
     }
+
+    public static function delete($nId)
+    {
+        ACDatabase::set("DELETE FROM `catalog` WHERE `id` = ?", $nId);
+        ACDatabase::set("DELETE FROM `catalog` WHERE `parent` = ?", $nId);
+        ACDatabase::set("DELETE FROM `item` WHERE `id` = ?", $nId);
+    }
+
 }

@@ -1,5 +1,8 @@
 <?php
-class Message{
+
+
+class ACMessage
+{
 
     /**
      * @return array|void

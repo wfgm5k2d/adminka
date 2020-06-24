@@ -1,6 +1,8 @@
 <?php
 
-class ACPage {
+
+class ACPage
+{
 
     /**
      * @return bool

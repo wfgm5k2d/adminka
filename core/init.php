@@ -1,7 +1,0 @@
-<?php
-
-define('SITE_TEMPLATE_PATH', $_SERVER['DOCUMENT_ROOT']);
-
-define('SITE_TEMPLATE_PATH_CORE', $_SERVER['DOCUMENT_ROOT'] . '/core/');
-
-define('SITE_TEMPLATE_PATH_CLASS', $_SERVER['DOCUMENT_ROOT'] . '/class/');

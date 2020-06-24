@@ -1,5 +1,7 @@
 <?php
-class ACDatabase
+
+
+trait ACDatabase
 {
     public static $dsn = 'mysql:dbname=adminka;host=mysql';
     public static $user = 'root';

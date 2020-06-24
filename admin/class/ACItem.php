@@ -1,5 +1,8 @@
 <?php
-class Item{
+
+
+class ACItem
+{
 
 	public static function getItems($parent)
 	{

@@ -1,6 +1,6 @@
 <?php
 
-class ACOptions
+class ACOption
 {
     /**
      * @return mixed|void

@@ -1,6 +1,7 @@
 <?php
 
-class Blocks
+
+class ACBlocks
 {
     public static function block($sIdent)
     {

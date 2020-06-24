@@ -1,8 +1,9 @@
 <?php
 
-class ACReviews {
+class ACReviews
+{
 
-    /**
+    /**Reviews
      * @return bool
      */
     public static function getReviews()

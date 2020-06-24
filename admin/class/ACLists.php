@@ -1,12 +1,12 @@
 <?php
 
 
-class Lists
+class ACLists
 {
     /**
      * @return array|void
      */
-    public static function getFullList()
+    private static function getFullList()
     {
         $arItems = ACDatabase::getAll('SELECT * FROM list');
 

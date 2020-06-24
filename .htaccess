@@ -3,13 +3,12 @@ AddDefaultCharset utf-8
 RewriteEngine on
 
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule . index.php
+
+RewriteRule .* index.php [L]
 
 Options +FollowSymlinks
 RewriteCond %{HTTP_REFERER} ^https?://([^.]+\.)*h.yandex-team\.ru\ [NC,OR]
-RewriteRule .* – [F]
 
 Options -Indexes
 
