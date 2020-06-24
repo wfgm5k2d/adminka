@@ -1,4 +1,6 @@
 <?php
+
+
 class ACCatalog{
 
     /**
@@ -85,21 +87,27 @@ class ACCatalog{
 
     /**
      * @param $sName
+     * @param null $sUrl
      * @return int|string
      */
-    public static function addParent($sName, $sUrl = '')
+    public static function addParent($sName, $sUrl = NULL)
     {
         $sName = filt($sName);
 
-        //($sUrl == '') ? str2url($sName) : $sUrl;
-        $sUrl = str2url($sName);
+        ($sUrl == NULL) ? str2url($sName) : $sUrl;
 
-        $arItems = ACDatabase::add("INSERT INTO `catalog` (`name`, `url`) VALUES (`{$sName}`,`{$sUrl}`)");
+        $arItems = ACDatabase::set("INSERT INTO `catalog` SET name = ?, url = ?", array($sName, $sUrl));
 
         return $arItems;
     }
 
 
+    /**
+     * @param $sName
+     * @param $nParent
+     * @param null $sUrl
+     * @return int|string
+     */
     public static function addChild($sName, $nParent, $sUrl = NULL)
     {
         $sName = filt($sName);
