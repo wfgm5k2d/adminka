@@ -12,6 +12,9 @@ class ACErrors
             case 1:
                 echo "Error 1: The array is empty. Check call parameters.";
                 break;
+            case 2:
+                echo "Error 2: Error connecting to database. Check connection settings or database";
+                break;
             default:
                 echo "Error";
         endswitch;
