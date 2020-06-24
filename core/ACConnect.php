@@ -35,7 +35,7 @@ class ACDatabase
                 );
                 self::$dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
             } catch (PDOException $e) {
-                exit('Error connecting to database: ' . $e->getMessage());
+                exit('Error connecting to database: ' . $e->getMessage() . '<br>Check the database connection settings in the <b>ACConnect.php</b> file.');
             }
         }
 
