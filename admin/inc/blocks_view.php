@@ -1,4 +1,4 @@
-<?php include('header.php');?>
+<?php require('header.php');?>
     <div class="divleft">
         <h1> Блоки </h1>
 
@@ -35,7 +35,7 @@
             <h1> Изменить блок </h1>
             <div class="ajax_editblock">
                     <input type="hidden" name="id" class="ajax_editblock-id">
-                <p class="after">Новое имя блока: 
+                <p class="after">Новое имя блока:
                     <input type="text" name="name" placeholder="Новое имя блока" value="" class="ajax_editblock-name input">
                 </p>
                     <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save input">
@@ -44,5 +44,5 @@
         </div>
     </div>
     <div class="clear"></div>
-    <script type="text/javascript" src="../conf/block.js"></script>
+    <script type="text/javascript" src="conf/block.js"></script>
 <?php include('footer.php');?>

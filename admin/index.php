@@ -1,16 +1,17 @@
 <?php
 session_start();
-ini_set('display_errors', 'Off'); //On показать ошибки
+ini_set('display_errors', 'On'); //On показать ошибки
 error_reporting('E_ALL');
 
 $_SESSION['title'] = '&copyArtComunity / Панель управления / Администратор сайта';
 if ($_SESSION['user_activ_admin'] == 1) {
-    $url = explode('/', $_SERVER['REQUEST_URI']);
+    $arUrl = explode('/', $_SERVER['REQUEST_URI']);
+    $sUrl = str_replace('.php', '', $arUrl[2]);
 
-    if (!empty($url[4]) && $url[4] != '') {
-        include 'inc/' . $url[4] . '.php';
+    if (!empty($sUrl) && $sUrl != '') {
+        include 'inc/' . $sUrl . '.php';
     } else {
-        include "inc/body.php";
+        require "inc/body.php";
     }
 
     $_SESSION['user_activ_admin'] = 0;

@@ -80,7 +80,7 @@ error_reporting('E_ALL');
             </a>
             <? if (!empty(ACModules::getModule())): ?>
                 <? foreach (ACModules::getModule() as $arModul): ?>
-                    <a href="<?=$arModul['url']?>.php" class="navigation-panel">
+                    <a href="<?=$arModul['url']?>" class="navigation-panel">
                         <img src="<?= $parentDir ?>/icons/<?=$arModul['img']?>.png" alt="<?=$arModul['module']?>"
                              title="<?=$arModul['module']?>">
                         <?=$arModul['module']?>
