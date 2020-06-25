@@ -1,7 +1,7 @@
 </div> <!--center-->
 </div><!--content-->
 <footer class="footer">
-        Персональная разработка "ArtComunity" <?php echo date('Y'); ?>
+    Персональная разработка "ArtComunity" <?= date('Y'); ?>
 </footer>
 </div><!--wrapper-->
 <script type="text/javascript">
