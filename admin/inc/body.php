@@ -1,5 +1,4 @@
 <?php
-include ('header.php');
-include('main.php');
-include ('footer.php');
-?>
+require ('header.php');
+require('main.php');
+require ('footer.php');
