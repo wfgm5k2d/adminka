@@ -1,3 +1,4 @@
+<?require 'window.php';?>
 </div> <!--center-->
 </div><!--content-->
 <footer class="footer">

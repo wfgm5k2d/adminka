@@ -37,6 +37,8 @@ error_reporting('E_ALL');
     <link rel="stylesheet" href="Trumbowyg/dist/plugins/table/ui/trumbowyg.table.min.css">
     <link rel="stylesheet" href="Trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.min.css">
 
+    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/icofont/icofont.min.css">
+
     <link rel="icon" type="image/png" href="favicon.png">
 
     <script type="text/javascript" src="<?= $parentDir ?>/js/jquery.min.js"></script>
