@@ -14,9 +14,9 @@ if ($_SESSION['user_activ_admin'] == 1) {
         require "inc/body.php";
     }
 
-    $_SESSION['user_activ_admin'] = 0;
-    $_SESSION['login'] = 0;
-    $_SESSION['pass'] = 0;
+//    $_SESSION['user_activ_admin'] = 0;
+//    $_SESSION['login'] = 0;
+//    $_SESSION['pass'] = 0;
 } else {
     include 'authorization.php';
 }

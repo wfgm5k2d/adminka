@@ -44,5 +44,5 @@
         </div>
     </div>
     <div class="clear"></div>
-    <script type="text/javascript" src="conf/block.js"></script>
+    <script type="text/javascript" src="../conf/block.js"></script>
 <?php include('footer.php');?>

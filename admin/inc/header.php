@@ -33,11 +33,11 @@ error_reporting('E_ALL');
     <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/jquery-ui.css">
     <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/owl.carousel.min.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="../Trumbowyg/dist/ui/trumbowyg.css">
-    <link rel="stylesheet" href="../Trumbowyg/dist/plugins/table/ui/trumbowyg.table.min.css">
-    <link rel="stylesheet" href="trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.min.css">
+    <link rel="stylesheet" href="Trumbowyg/dist/ui/trumbowyg.css">
+    <link rel="stylesheet" href="Trumbowyg/dist/plugins/table/ui/trumbowyg.table.min.css">
+    <link rel="stylesheet" href="Trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.min.css">
 
-    <link rel="icon" type="image/png" href="../favicon.png">
+    <link rel="icon" type="image/png" href="favicon.png">
 
     <script type="text/javascript" src="<?= $parentDir ?>/js/jquery.min.js"></script>
     <script type="text/javascript" src="<?= $parentDir ?>/js/jquery-ui.min.js"></script>
@@ -45,21 +45,21 @@ error_reporting('E_ALL');
     <script type="text/javascript" src="<?= $parentDir ?>/js/jquery.fancybox.min.js"></script>
     <script src="<?= $parentDir ?>/js/plotly-latest.min.js"></script>
     <script type="text/javascript" src="<?= $parentDir ?>/js/loader.js"></script>
-    <script src="../Trumbowyg/dist/trumbowyg.js"></script>
-    <script src="../Trumbowyg/dist/langs/ru.js"></script>
-    <script src="../Trumbowyg/dist/plugins/table/trumbowyg.table.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/upload/trumbowyg.upload.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/colors/trumbowyg.colors.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/history/trumbowyg.history.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/noembed/trumbowyg.noembed.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/resizimg/resolveconflict-resizable.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/resizimg/resize.with.canvas.min.js"></script>
-    <script src="../Trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.min.js"></script>
+    <script src="Trumbowyg/dist/trumbowyg.js"></script>
+    <script src="Trumbowyg/dist/langs/ru.js"></script>
+    <script src="Trumbowyg/dist/plugins/table/trumbowyg.table.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/upload/trumbowyg.upload.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/colors/trumbowyg.colors.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/history/trumbowyg.history.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/noembed/trumbowyg.noembed.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/resizimg/resolveconflict-resizable.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/resizimg/resize.with.canvas.min.js"></script>
+    <script src="Trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.min.js"></script>
     <script type="text/javascript" src="<?= $parentDir ?>/js/site.js"></script>
     <?
     $img_reviews = $parentDir . '/icons/reviews-image.png';

@@ -1,11 +1,10 @@
 <?php include('header.php'); ?>
 <?php
 session_start();
-include('../../class/func_start.php');
 
-$url = explode('/', $_SERVER['PHP_SELF']);
+$url = explode('/', $_SERVER['REQUEST_URI']);
 
-if (in_array('page_view.php', $url) && empty($_GET['id'])) {
+if (in_array('page_view', $url) && empty($_GET['id'])) {
     $_SESSION['id'] = '';
     ?>
     <div class="divleft">
