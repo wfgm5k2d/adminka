@@ -71,6 +71,10 @@ class ACRouter{
         {
             require "template/main.php";
         }
+        elseif($url['PAGE'] == 'admin')
+        {
+            require "admin/index.php";
+        }
         else{
             require "template/page.php";
         }
