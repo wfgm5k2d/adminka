@@ -1,20 +1,8 @@
 <?php
+if (isset($_REQUEST)) {
+    $sValue = $_REQUEST['value'];
+    $nId = $_REQUEST['id'];
 
-include('conf.php');
-     
-// если запрос POST 
-    $id = htmlentities(mysqli_real_escape_string($link, $_POST['id']));
-    $name = htmlentities(mysqli_real_escape_string($link, $_POST['name']));
-if(isset($_POST['name']) && isset($_POST['id'])){
- 
-
-     
-    $query ="UPDATE blocks SET name='$name' WHERE id='$id'";
-    $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link)); 
-
-    if ($result)
-    	echo '1';
-    else
-    	echo '0';
+    require '../core/ACConnect.php';
+    $query = ACDatabase::set("UPDATE blocks SET value = ? WHERE id = ?", array($sValue, $nId));
 }
-?>

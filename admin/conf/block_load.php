@@ -1,18 +1,7 @@
 <?php
-include('conf.php');
+require '../core/ACConnect.php';
 
-$sql = 'SELECT * FROM blocks';
-$result = mysqli_query($link, $sql);
-
-$arr = array();
-// Перебор результата
-$k = 0;
-while($record = mysqli_fetch_array($result, MYSQLI_ASSOC))
-{
-    $arr[$k]['id'] = $record['id'];
-    $arr[$k]['name'] = $record['name'];
-    $k++;
-}
+$arQuery = ACDatabase::getAll('SELECT * FROM blocks');
 header('Content-Type: application/json');
-echo json_encode($arr);	
-?>
+
+echo json_encode($arQuery);

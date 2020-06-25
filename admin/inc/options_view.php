@@ -33,7 +33,7 @@
                     <input type="text" name="pass" placeholder="Пароль" value="" class="ajax_editblock-pass input">
                 </p>
                 </p>
-                    <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save input">
+                    <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save save">
             </div>
         </div>
     </div>

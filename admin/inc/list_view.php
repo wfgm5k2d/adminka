@@ -43,8 +43,8 @@ if(in_array('list_view.php', $url) && empty($_GET['id']))
                     </div>
                 </p> -->
                 <input type="hidden" name="parent" value="" class="ajax_addblock-parent input">
-                <input type="submit" name="send" value="Сохранить" class="ajax_addblock-save input">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel input">
+                <input type="submit" name="send" value="Сохранить" class="ajax_addblock-save save">
+                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
 
@@ -53,7 +53,7 @@ if(in_array('list_view.php', $url) && empty($_GET['id']))
             <div id="delete-block">
                 <input type="hidden" name="id" class="deleteblock-id">
                 <input type="submit" name="delete" value="Подтвердить удаление" class="deleteblock-btn input">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel input">
+                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
 
@@ -84,8 +84,8 @@ if(in_array('list_view.php', $url) && empty($_GET['id']))
                             <span class="output"></span>
                     </div>
                 </p>
-                <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save input">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel input">
+                <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save save">
+                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
     </div>
@@ -112,8 +112,8 @@ else
                     URL сменится автоматически
                 </span>
                 <input type="hidden" name="parent" value="" class="ajax_addblock-parent input">
-                <input type="submit" name="send" value="Сохранить" class="ajax_addblock-save input">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel input">
+                <input type="submit" name="send" value="Сохранить" class="ajax_addblock-save save">
+                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
 
@@ -122,7 +122,7 @@ else
             <div id="delete-block">
                 <input type="hidden" name="id" class="deleteblock-id">
                 <input type="submit" name="delete" value="Подтвердить удаление" class="deleteblock-btn input">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel input">
+                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
 
@@ -157,8 +157,8 @@ else
                             <span class="output"></span>
                     </div>
                 </p>
-                <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save-plus input">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel input">
+                <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save-plus save">
+                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
     </div>

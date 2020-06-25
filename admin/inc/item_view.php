@@ -65,8 +65,8 @@
                         </p>
                     </p>
                 </div>
-                    <input type="submit" name="send" value="Сохранить" class="ajax_addblock-save input">
-                    <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel input">
+                    <input type="submit" name="send" value="Сохранить" class="ajax_addblock-save save">
+                    <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
 
@@ -75,7 +75,7 @@
             <div id="delete-block">
         		<input type="hidden" name="id" class="deleteblock-id">
         		<input type="submit" name="delete" value="Подтвердить удаление" class="deleteblock-btn input">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel input">
+                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
 
@@ -128,8 +128,8 @@
                         </select>
                     </p>
                 </p>
-                    <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save input">
-                    <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel input">
+                    <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save save">
+                    <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
     </div>

@@ -57,8 +57,8 @@ require('../conf/reviews.php');
 					</label>
                 </p>
 				<div class="clear"></div>
-                <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save input">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel input">
+                <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save save">
+                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
         <div class="addblock">
@@ -79,8 +79,8 @@ require('../conf/reviews.php');
             	<p class="after-textarea">Ваш ответ: <br>
                     <textarea type="text" name="reviews" id="description_editor" class="show-add-answer"></textarea>
                 </p>
-                <input type="submit" name="edit" value="Сохранить" class="ajax_addblock-save input">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_addblock-cancel input">
+                <input type="submit" name="edit" value="Сохранить" class="ajax_addblock-save save">
+                <input type="submit" name="cancel" value="Отменить" class="ajax_addblock-cancel cancel">
             </div>
         </div>
 

@@ -117,8 +117,33 @@ ul, ol
   margin-left: 20px
 
 input,
-textarea
+textarea,
+.cancel,
+.save
   outline: none
+
+input
+  float: right
+  width: 500px
+  height: 25px
+  border-radius: 6px
+  border: none
+  background: rgba(0,0,0,0.4)
+  padding: 0 10px
+  font-size: 16px
+  color: #fff
+
+textarea
+  width: 100%
+  height: 200px
+  border-radius: 6px
+  border: none
+  background: rgba(0,0,0,0.4)
+  padding: 5px 10px
+  font-size: 16px
+  color: #fff
+  resize: none
+  margin-top: 20px
 
 input[type="text"]::-webkit-input-placeholder,
 input[type="password"]::-webkit-input-placeholder
@@ -261,7 +286,7 @@ h6
 .elnameplus
   margin-top: 20px
   background: rgba(0,0,0,0.4)
-  height: 25px
+  min-height: 25px
   line-height: 25px
   padding-left: 10px
   color: #fff
@@ -271,14 +296,12 @@ h6
   overflow: hidden
   &__a
     width: 350px
-    height: 25px
     &>a
       text-decoration: none
       color: #fff
-      height: 25px
 
 .edit
-  background: url('../assets/icons/edit.png') center center no-repeat
+  background: url('../icons/edit.png') center center no-repeat
   background-size: cover
   width: 16px
   height: 16px
@@ -291,7 +314,7 @@ h6
   right: 30px
 
 .editplus
-  background: url('../assets/icons/edit.png') center center no-repeat
+  background: url('../icons/edit.png') center center no-repeat
   background-size: cover
   width: 16px
   height: 16px
@@ -304,7 +327,7 @@ h6
   right: 30px
 
 .delete
-  background: url('../assets/icons/delete.png') center center no-repeat
+  background: url('../icons/delete.png') center center no-repeat
   background-size: cover
   width: 16px
   height: 16px
@@ -317,7 +340,7 @@ h6
   right: 0
 
 .glass
-  background: url('../assets/icons/add.png') center center no-repeat
+  background: url('../icons/add.png') center center no-repeat
   background-size: cover
   width: 16px
   height: 16px
@@ -330,7 +353,7 @@ h6
   right: 60px
 
 .show
-  background: url('../assets/icons/glas.png') center center no-repeat
+  background: url('../icons/glas.png') center center no-repeat
   background-size: cover
   width: 16px
   height: 16px
@@ -370,43 +393,6 @@ h6
   margin-bottom: 20px
   height: auto
 
-.ajax_addblock-content,
-.ajax_addblock-descript,
-.ajax_addblock-descript-plus,
-.ajax_addblock-content-plus,
-.ajax_editblock-description,
-.ajax_editblock-og_title,
-.ajax_editblock-og_description,
-.ajax_editblock-keywords,
-.ajax_editblock-descript-plus,
-.ajax_editblock-content-plus
-    width: 100%
-    height: 200px
-    border-radius: 6px
-    border: none
-    background: rgba(0,0,0,0.4)
-    padding: 5px 10px
-    font-size: 16px
-    color: #fff
-    resize: none
-    margin-top: 20px
-
-.ajax_addblock-name,
-.ajax_addblock-ident,
-.ajax_addblock-price,
-.ajax_addblock-oldprice,
-.ajax_addblock-art,
-.ajax_addblock-size,
-.ajax_addblock-color,
-.ajax_addblock-name-plus,
-.ajax_addblock-parent-plus,
-.ajax_addblock-parent,
-.ajax_addblock-page,
-.ajax_editblock-name,
-.ajax_editblock-title,
-.ajax_editblock-site_name,
-.ajax_editblock-pass,
-.ajax_editblock-name-plus,
 .show-theme,
 .show-name,
 .show-add-name,
@@ -431,12 +417,10 @@ h6
   font-size: 16px
   color: #fff
 
-.ajax_addblock-save,
-.ajax_addblock-save-plus,
-.ajax_editblock-save,
-.ajax_editblock-save-plus
+.save
   margin: 0 auto
   margin-top: 20px
+  margin-right: 5px
   cursor: pointer
   width: 110px
   padding: 10px
@@ -447,13 +431,15 @@ h6
   transition: 0.3s
   border: none
   font-size: 16px
+  float: left
+  height: 40px
   &:hover
     background: rgba(0,255,0,0.6)
 
-.ajax_addblock-cancel,
-.ajax_editblock-cancel
+.cancel
   margin: 0 auto
   margin-top: 20px
+  margin-right: 5px
   cursor: pointer
   width: 110px
   padding: 10px
@@ -464,6 +450,8 @@ h6
   transition: 0.3s
   border: none
   font-size: 16px
+  float: left
+  height: 40px
   &:hover
     background: rgba(255, 106, 0, 0.6)
 
@@ -657,7 +645,7 @@ h6
   line-height: 16px
   color: #fff
   cursor: pointer
-  background: url('../assets/icons/downloadfile-white.png') no-repeat center 38px
+  background: url('../icons/downloadfile-white.png') no-repeat center 38px
   border-radius: 6px
   &>.imagepodstava
     margin-top: 12px
@@ -716,7 +704,7 @@ h6
     background-size: cover !important
     background-repeat: no-repeat !important
   &-delete
-    background: url('../assets/icons/delete.png') center center no-repeat
+    background: url('../icons/delete.png') center center no-repeat
     background-size: cover
     width: 16px
     height: 16px
