@@ -62,7 +62,8 @@ error_reporting('E_ALL');
     <script src="Trumbowyg/dist/plugins/resizimg/resolveconflict-resizable.min.js"></script>
     <script src="Trumbowyg/dist/plugins/resizimg/resize.with.canvas.min.js"></script>
     <script src="Trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.min.js"></script>
-    <script type="text/javascript" src="<?= $parentDir ?>/js/site.js"></script>
+    <script type="text/javascript" src="<?= $parentDir ?>/js/trumbowyg_custom.js"></script>
+    <script type="text/javascript" src="<?= $parentDir ?>/js/window.js"></script>
     <?
     $img_reviews = $parentDir . '/icons/reviews-image.png';
     $img_newreviews = $parentDir . '/icons/new-reviews-image.png';

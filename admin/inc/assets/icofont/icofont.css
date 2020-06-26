@@ -48,6 +48,21 @@ url("./fonts/icofont.woff") format("woff");
   content: "\ec8a";
 }
 
+.icofont-close-line:before
+{
+  content: "\eee1";
+}
+
+.icofont-lock:before
+{
+  content: "\ef7a";
+}
+
+.icofont-thin-down:before
+{
+  content: "\eac8";
+}
+
 .icofont-xs
 {
   font-size: .5em;
