@@ -90,7 +90,7 @@ error_reporting('E_ALL');
                     </a>
                 <? endforeach; ?>
             <? endif; ?>
-            <a href="/" class="navigation-panel">
+            <a href="uncet.php" class="navigation-panel">
                 <img src="<?php echo $img_exit; ?>" alt="Выход" title="Выход">Выход
             </a>
         </div>

@@ -1,4 +1,3 @@
-<?php include('header.php'); ?>
 <?php
 session_start();
 include('../../class/func_start.php');
@@ -170,6 +169,5 @@ if (in_array('catalog_view.php', $url) && empty($_GET['id'])) {
     <?
 }
 ?>
-    <div class="clear"></div>
-    <script type="text/javascript" src="../conf/catalog.js"></script>
-<?php include('footer.php'); ?>
+<div class="clear"></div>
+<script type="text/javascript" src="../conf/catalog.js"></script>

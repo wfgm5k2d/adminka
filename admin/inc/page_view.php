@@ -1,4 +1,3 @@
-<?php include('header.php'); ?>
 <?php
 session_start();
 
@@ -24,7 +23,8 @@ if (in_array('page_view', $url) && empty($_GET['id'])) {
                     URL сменится автоматически
                 </span>
                 <p class="after-textarea">Краткое описание страницы:
-                    <textarea type="text" name="descript" id="description_editor" placeholder="Краткое описание страницы"
+                    <textarea type="text" name="descript" id="description_editor"
+                              placeholder="Краткое описание страницы"
                               class="ajax_addblock-descript"></textarea>
                 </p>
                 <p class="after-textarea">Полное описание страницы:
@@ -58,11 +58,13 @@ if (in_array('page_view', $url) && empty($_GET['id'])) {
                     URL сменится автоматически
                 </span>
                 <p class="after-textarea">Краткое описание страницы:
-                    <textarea type="text" name="descript" id="description_editor-editpage" placeholder="Краткое описание страницы"
+                    <textarea type="text" name="descript" id="description_editor-editpage"
+                              placeholder="Краткое описание страницы"
                               class="ajax_editblock-descript"></textarea>
                 </p>
                 <p class="after-textarea">Полное описание страницы:
-                    <textarea type="text" name="content" id="content_editor-editpage" placeholder="Полное описание страницы"
+                    <textarea type="text" name="content" id="content_editor-editpage"
+                              placeholder="Полное описание страницы"
                               class="ajax_editblock-content"></textarea>
                 </p>
                 <input type="hidden" name="parent" value="" class="ajax_addblock-parent input">
@@ -92,7 +94,8 @@ if (in_array('page_view', $url) && empty($_GET['id'])) {
                     URL сменится автоматически
                 </span>
                 <p class="after-textarea">Краткое описание страницы:
-                    <textarea type="text" name="descript" id="description_editor" placeholder="Краткое описание страницы"
+                    <textarea type="text" name="descript" id="description_editor"
+                              placeholder="Краткое описание страницы"
                               class="ajax_addblock-descript-plus"></textarea>
                 </p>
                 <p class="after-textarea">Полное описание страницы:
@@ -126,11 +129,13 @@ if (in_array('page_view', $url) && empty($_GET['id'])) {
                     URL сменится автоматически
                 </span>
                 <p class="after-textarea">Краткое описание подстраницы: <br>
-                    <textarea type="text" name="descript" id="description_editor-editpage" placeholder="Краткое описание подстраницы"
+                    <textarea type="text" name="descript" id="description_editor-editpage"
+                              placeholder="Краткое описание подстраницы"
                               class="ajax_editblock-descript-plus"></textarea>
                 </p>
                 <p class="after-textarea">Полное описание подстраницы: <br>
-                    <textarea type="text" name="content" id="content_editor-editpage" placeholder="Полное описание подстраницы"
+                    <textarea type="text" name="content" id="content_editor-editpage"
+                              placeholder="Полное описание подстраницы"
                               class="ajax_editblock-content-plus"></textarea>
                 </p>
                 <input type="hidden" name="parent" value="" class="ajax_addblock-parent input">
@@ -142,6 +147,5 @@ if (in_array('page_view', $url) && empty($_GET['id'])) {
     <?
 }
 ?>
-    <div class="clear"></div>
-    <script type="text/javascript" src="../conf/page.js"></script>
-<?php include('footer.php'); ?>
+<div class="clear"></div>
+<script type="text/javascript" src="../conf/page.js"></script>
