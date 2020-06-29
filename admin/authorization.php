@@ -4,7 +4,6 @@ session_start();
 $url = explode('/', $_SERVER['REQUEST_URI']);
 
 $arQuery = ACDatabase::getRow('SELECT login, pass FROM options');
-
 $_SESSION['login'] = $arQuery['login'];
 $_SESSION['pass'] = mb_strtolower($arQuery['pass']);
 $login = filt($_POST['login']);
