@@ -8,12 +8,13 @@ if ($_SESSION['user_activ_admin'] == 1) {
     $arUrl = explode('/', $_SERVER['REQUEST_URI']);
     $sUrl = str_replace('.php', '', $arUrl[2]);
 
+    include 'inc/header.php';
     if (!empty($sUrl) && $sUrl != '' && $sUrl != 'index') {
         require 'inc/' . $sUrl . '.php';
     } else {
         include ('inc/body.php');
     }
-
+    include 'inc/footer.php';
 } else {
     include 'authorization.php';
 }

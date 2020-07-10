@@ -1,2 +1,1 @@
-<?php
-ACCatalog::delete(671);
+<a href="admin">Панель администратора</a>

@@ -13,5 +13,6 @@
         $('.divleft').draggable();
     });
 </script>
+<script src="/admin/conf/window.js"></script>
 </body>
 </html>
