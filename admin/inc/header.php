@@ -26,6 +26,7 @@ error_reporting('E_ALL');
         $parentDir = 'inc/assets';
     ?>
     <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/style.css">
+    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/media.css">
     <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/background.css">
     <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/animate.css">
     <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/animations.min.css">
@@ -77,7 +78,7 @@ error_reporting('E_ALL');
 <body id="background-admin">
 <div class="wrapper">
     <header class="header">
-        <div class="center header-menu">
+        <div class="header-menu">
             <a href="body.php" class="navigation-panel">
                 <img src="<?= $parentDir ?>/icons/home-image.png" alt="Главная" title="Главная"><span>Главная</span>
             </a>
@@ -96,4 +97,3 @@ error_reporting('E_ALL');
         </div>
     </header>
     <div class="content">
-        <div class="center">

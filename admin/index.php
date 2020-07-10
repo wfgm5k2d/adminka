@@ -10,7 +10,7 @@ if ($_SESSION['user_activ_admin'] == 1) {
 
     include 'inc/header.php';
     if (!empty($sUrl) && $sUrl != '' && $sUrl != 'index') {
-        require 'inc/' . $sUrl . '.php';
+        require 'inc/' . strtok($sUrl, '?') . '.php';
     } else {
         include ('inc/body.php');
     }

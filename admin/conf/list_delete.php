@@ -1,18 +1,17 @@
 <?php
-include('conf.php');
 
 if(isset($_POST['id']))
 {
-	$id = $_POST['id'];
-    $res = mysqli_real_escape_string($link, $id);
-     
-    $result =mysqli_query($link, "DELETE FROM list WHERE id = '$id'");
+    $nId = $_POST['id'];
 
-    if ($result)
-    	header('Location: ../inc/list_view.php');
+    require '../core/ACConnect.php';
+    require '../class/ACLists.php';
+    $query = ACLists::delete($nId);
+
+    if ($query)
+        echo '1';
     else
-    	echo 'Ошибка при обработке';
-
+        echo '0';
 }
 
 if(isset($_POST['editplusimage']))

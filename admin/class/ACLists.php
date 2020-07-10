@@ -70,4 +70,9 @@ class ACLists
         else
             return ACErrors::getError(1);
     }
+
+    public static function delete($nId)
+    {
+        ACDatabase::set("DELETE FROM `list` WHERE `id` = ?", $nId);
+    }
 }

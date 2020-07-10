@@ -1,18 +1,13 @@
 <?php
-include('conf.php');
-
 if(isset($_POST['id']))
 {
-	$id = $_POST['id'];
-    $res = mysqli_real_escape_string($link, $id);
-     
-    $result =mysqli_query($link, "DELETE FROM blocks WHERE id = '$id'");
+	$nId = $_POST['id'];
 
-    if ($result)
+    require '../core/ACConnect.php';
+    $query = ACDatabase::add("DELETE FROM blocks WHERE id = ?", $nId);
+
+    if ($query)
     	echo '1';
     else
     	echo '0';
-
 }
-echo '#'.$id;
-?>

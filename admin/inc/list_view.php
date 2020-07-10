@@ -1,10 +1,8 @@
 <?php
 session_start();
-include "/../class/include_class.php";
 $url = explode('/', $_SERVER['PHP_SELF']);
 
-if (in_array('list_view.php', $url) && empty($_GET['id'])) {
-    $_SESSION['id'] = '';
+if (empty($_GET['id'])) {
     ?>
     <div class="divleft">
         <h1> Лента </h1>
@@ -15,83 +13,81 @@ if (in_array('list_view.php', $url) && empty($_GET['id'])) {
     <div class="divright">
         <div class="addblock">
             <h1> Добавить ленту </h1>
-            <div class="ajax_addblock">
+            <form class="ajax_addblock">
                 <p class="after">Введите название ленты:
+                    <span class="url">
+                        URL добавится автоматически
+                    </span>
                     <input type="text" name="name" placeholder="Имя ленты" class="ajax_addblock-name input">
                 </p>
-                <span class="url">
-                    URL сменится автоматически
-                </span>
-                <!-- <p class="after">Загрузите изображение ленты:
-                    <div class="seeImage">
-                        <form action="../conf/loaderImage.php" class="loadToImage" method="post" enctype="multipart/form-data">
-                            <label for="upload-add" class="bigdownloadbutton">Загрузить изображение
-                                <div class="imagepodstava"></div>
-                            </label>
-                            <input type="hidden" name="name" placeholder="Новое имя ленты" value="" class="ajax_editblock-name input">
-                            <input type="file" class="upload-image" id="upload-add" name="upload-add">
-                            <button type="submit" class="add_question" name="addImage">
-                                Загрузить изображение
-                                <div class="information">
-                                    <span class="information--red">Загрузка изображений требует перезагрузки страницы.</span> Прежде чем загрузить изображение введите имя ленты и нажмите <span class="information--green">Сохранить</span>, чтобы избежать потери данных.
-                                </div>
-                            </button>
-                        </form>
-                        <div class="seeImage-image" style="background: url('../../../upload/8f87cf36561f2cb749d64738bbbb0912.png');"></div>
-                    </div>
-                </p> -->
-                <input type="hidden" name="parent" value="" class="ajax_addblock-parent input">
-                <input type="submit" name="send" value="Сохранить" class="ajax_addblock-save save">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
-            </div>
+<!--                <p class="after">Изображение ленты:-->
+<!--                    <div class="seeImage">-->
+<!--                        <form action="../conf/loaderImage.php" class="loadToImage" method="post" enctype="multipart/form-data">-->
+<!--                            <label for="upload-add" class="bigdownloadbutton">Загрузить изображение-->
+<!--                                <div class="imagepodstava"></div>-->
+<!--                            </label>-->
+<!--                            <input type="hidden" name="name-image"  value="" class="ajax_editblock-name input">-->
+<!--                            <input type="file" class="upload-image" id="upload-add" name="upload-add">-->
+<!--                            <button type="submit" class="add_question" name="addImage">-->
+<!--                                Загрузить изображение-->
+<!--                                <div class="information">-->
+<!--                                    <span class="information--red">Загрузка изображений требует перезагрузки страницы.</span> Прежде чем загрузить изображение введите имя ленты и нажмите <span class="information--green">Сохранить</span>, чтобы избежать потери данных.-->
+<!--                                </div>-->
+<!--                            </button>-->
+<!--                        </form>-->
+<!--                        <div class="seeImage-image" style="background: url('../../../upload/8f87cf36561f2cb749d64738bbbb0912.png');"></div>-->
+<!--                    </div>-->
+<!--                </p>-->
+                <input type="submit" value="Сохранить" class="ajax_addblock-save save">
+                <input value="Отменить" class="ajax_editblock-cancel cancel">
+            </form>
         </div>
 
         <div class="delblock">
             <h1> Удалить ленту </h1>
             <div id="delete-block">
                 <input type="hidden" name="id" class="deleteblock-id">
-                <input type="submit" name="delete" value="Подтвердить удаление" class="deleteblock-btn input">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
+                <input type="submit" value="Подтвердить удаление" class="deleteblock-btn input">
+                <input value="Отменить" class="ajax_editblock-cancel cancel">
             </div>
         </div>
 
         <div class="editblock">
             <h1> Изменить ленту </h1>
-            <div class="ajax_editblock">
+            <form class="ajax_editblock">
                 <input type="hidden" name="id" class="ajax_editblock-id">
                 <p class="after">Новое имя ленты:
+                    <span class="url">
+                        URL сменится автоматически
+                    </span>
                     <input type="text" name="name" placeholder="Новое имя ленты" value=""
                            class="ajax_editblock-name input">
                 </p>
-                <span class="url">
-                    URL сменится автоматически
-                </span>
-                <p class="after">Загрузите изображение ленты:
-                <div class="seeImage">
-                    <form action="../conf/loaderImage.php" class="loadToImage" method="post"
-                          enctype="multipart/form-data">
-                        <label for="upload" class="bigdownloadbutton">Добавьте изображение
-                            <div class="imagepodstava"></div>
-
-                        </label>
-                        <input type="hidden" name="titleId" value="" class="form-edit-img">
-                        <input type="hidden" name="name">
-                        <input type="file" class="upload-image" id="upload" name="upload">
-                        <button type="submit" class="add_question" name="editImage">
-                            Загрузить изображение
-                        </button>
-                    </form>
-                    <span class="output"></span>
-                </div>
-                </p>
-                <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save save">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
-            </div>
+<!--                <p class="after">Загрузите изображение ленты:-->
+<!--                <div class="seeImage">-->
+<!--                    <form action="../conf/loaderImage.php" class="loadToImage" method="post"-->
+<!--                          enctype="multipart/form-data">-->
+<!--                        <label for="upload" class="bigdownloadbutton">Добавьте изображение-->
+<!--                            <div class="imagepodstava"></div>-->
+<!---->
+<!--                        </label>-->
+<!--                        <input type="hidden" name="titleId" value="" class="form-edit-img">-->
+<!--                        <input type="hidden" name="name-image">-->
+<!--                        <input type="file" class="upload-image" id="upload" name="upload">-->
+<!--                        <button type="submit" class="add_question" name="editImage">-->
+<!--                            Загрузить изображение-->
+<!--                        </button>-->
+<!--                    </form>-->
+<!--                    <span class="output"></span>-->
+<!--                </div>-->
+<!--                </p>-->
+                <input type="submit" value="Сохранить" class="ajax_editblock-save save">
+                <input value="Отменить" class="ajax_editblock-cancel cancel">
+            </form>
         </div>
     </div>
     <?
 } else {
-    $_SESSION['id'] = $_GET['id'];
     ?>
     <div class="divleft">
         <h1> Лента </h1>
@@ -104,11 +100,11 @@ if (in_array('list_view.php', $url) && empty($_GET['id'])) {
             <h1> Добавить подленту </h1>
             <div class="ajax_addblock">
                 <p class="after">Введите название подленты:
+                    <span class="url">
+                        URL добавится автоматически
+                    </span>
                     <input type="text" name="name" placeholder="Имя подленты" class="ajax_addblock-name input">
                 </p>
-                <span class="url">
-                    URL сменится автоматически
-                </span>
                 <input type="hidden" name="parent" value="" class="ajax_addblock-parent input">
                 <input type="submit" name="send" value="Сохранить" class="ajax_addblock-save save">
                 <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
@@ -129,12 +125,12 @@ if (in_array('list_view.php', $url) && empty($_GET['id'])) {
             <div class="ajax_editblockplus">
                 <input type="hidden" name="id" class="ajax_editblock-id-plus">
                 <p class="after">Новое имя подленты:
+                    <span class="url">
+                        URL сменится автоматически
+                    </span>
                     <input type="text" name="name" placeholder="Новое имя подленты" value=""
                            class="ajax_editblock-name-plus input">
                 </p>
-                <span class="url">
-                    URL сменится автоматически
-                </span>
                 <p class="after-textarea">Краткое описание подленты: <br>
                     <textarea type="text" name="descript" id="description_editor"
                               placeholder="Краткое описание подленты" class="ajax_editblock-descript-plus"></textarea>
@@ -169,4 +165,4 @@ if (in_array('list_view.php', $url) && empty($_GET['id'])) {
 }
 ?>
 <div class="clear"></div>
-<script type="text/javascript" src="../conf/list.js" defer></script>
+<script type="text/javascript" src="conf/list.js" defer></script>
