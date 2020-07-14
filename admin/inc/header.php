@@ -8,7 +8,7 @@ error_reporting('E_ALL');
 <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta name="autor" content="artcomunity24@gmail.com">
+    <meta name="autor" content="Artcomunity">
     <meta property="og:image" content="">
     <meta name="viewport" content="width=640px, initial-scale=0.5">
     <meta content=noindex name=robots>
@@ -25,46 +25,11 @@ error_reporting('E_ALL');
     else
         $parentDir = 'inc/assets';
     ?>
-    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/style.css">
-    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/media.css">
-    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/background.css">
-    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/animate.css">
-    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/animations.min.css">
-    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/jquery.fancybox.min.css">
-    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/jquery-ui.css">
-    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/owl.carousel.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-    <link rel="stylesheet" href="Trumbowyg/dist/ui/trumbowyg.css">
-    <link rel="stylesheet" href="Trumbowyg/dist/plugins/table/ui/trumbowyg.table.min.css">
-    <link rel="stylesheet" href="Trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.min.css">
-
+    <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/styles.css">
     <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/icofont/icofont.min.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
     <link rel="icon" type="image/png" href="favicon.png">
 
-    <script type="text/javascript" src="<?= $parentDir ?>/js/jquery.min.js"></script>
-    <script type="text/javascript" src="<?= $parentDir ?>/js/jquery-ui.min.js"></script>
-    <script type="text/javascript" src="<?= $parentDir ?>/js/owl.carousel.min.js"></script>
-    <script type="text/javascript" src="<?= $parentDir ?>/js/jquery.fancybox.min.js"></script>
-    <script src="<?= $parentDir ?>/js/plotly-latest.min.js"></script>
-    <script type="text/javascript" src="<?= $parentDir ?>/js/loader.js"></script>
-    <script src="Trumbowyg/dist/trumbowyg.js"></script>
-    <script src="Trumbowyg/dist/langs/ru.js"></script>
-    <script src="Trumbowyg/dist/plugins/table/trumbowyg.table.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/upload/trumbowyg.upload.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/colors/trumbowyg.colors.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/history/trumbowyg.history.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/noembed/trumbowyg.noembed.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/resizimg/resolveconflict-resizable.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/resizimg/resize.with.canvas.min.js"></script>
-    <script src="Trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.min.js"></script>
-    <script type="text/javascript" src="<?= $parentDir ?>/js/trumbowyg_custom.js"></script>
-    <script type="text/javascript" src="<?= $parentDir ?>/js/window.js"></script>
     <?
     $img_reviews = $parentDir . '/icons/reviews-image.png';
     $img_newreviews = $parentDir . '/icons/new-reviews-image.png';
@@ -73,7 +38,9 @@ error_reporting('E_ALL');
     $img_home = $parentDir . '/icons/home-image.png';
     $img_exit = $parentDir . '/icons/exit-image.png';
     ?>
+
     <title><?php echo $_SESSION['title']; ?></title>
+
 </head>
 <body id="background-admin">
 <div class="wrapper">

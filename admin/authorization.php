@@ -24,10 +24,7 @@ if (!empty($login) && !empty($pass)) {
 <html>
 <head>
     <title>Вход в панель управления</title>
-    <link rel="stylesheet" type="text/css" href="inc/assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="inc/assets/css/media.css">
-    <link rel="stylesheet" type="text/css" href="inc/assets/css/background.css">
-
+    <link rel="stylesheet" type="text/css" href="inc/assets/css/styles.css">
     <link rel="icon" type="image/png" href="favicon.png">
 
     <meta charset="utf-8">
@@ -52,5 +49,6 @@ if (!empty($login) && !empty($pass)) {
         </div>
     </form>
 </div>
+<link rel="stylesheet" type="text/css" href="inc/assets/js/bundle.js">
 </body>
 </html>
