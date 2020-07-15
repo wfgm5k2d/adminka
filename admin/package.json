@@ -1,12 +1,12 @@
 {
-    "name": "gruzovichok70-bitrix",
+    "name": "artcomunity-admin",
     "version": "1.0.0",
     "scripts": {
         "start": "webpack --config ./src/webpack.config.babel.js --mode development --env.development --watch",
         "build": "webpack --config ./src/webpack.config.babel.js --mode production --env.production"
     },
-    "repository": "https://gitlab.com/redlg/gruzovichok70-bitrix.git",
-    "author": "izica <artemiztomska@gmail.com>",
+    "repository": "https://github.com/wfgm5k2d/adminka.git",
+    "author": "artcomunity",
     "license": "MIT",
     "dependencies": {
         "@babel/polyfill": "^7.8.7",

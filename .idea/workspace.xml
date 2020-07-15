@@ -20,348 +20,329 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60408328-5bf8-4d0a-a45b-ad3372989be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/src/webpack.config.babel.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/bg.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/bg.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/by.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/by.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/by.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/by.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ca.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ca.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/cs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/cs.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/da.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/da.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/de.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/de.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/el.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/el.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/es.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/es.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/es_ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/es_ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/es_ar.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/es_ar.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/fa.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fa.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/fi.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fi.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/fr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fr.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/he.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/he.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/hr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/hr.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/hu.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/hu.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/id.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/id.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/it.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/it.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ja.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ja.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ko.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ko.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/lt.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/lt.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/mn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/mn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/mn.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/mn.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/my.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/my.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/nl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/nl.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/no_nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/no_nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/no_nb.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/no_nb.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ph.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ph.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ph.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/pl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pl.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/pt.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pt.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/pt_br.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pt_br.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/pt_br.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pt_br.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ro.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ro.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/rs.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/rs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/rs.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/rs.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/rs_latin.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/rs_latin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/rs_latin.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/rs_latin.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ru.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ru.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/sk.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sk.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/sl.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sl.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/sq.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sq.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/sv.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sv.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/th.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/th.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/tr.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/tr.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ua.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ua.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/ua.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ua.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/vi.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/vi.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/zh_cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/zh_cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/zh_cn.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/zh_cn.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/zh_tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/zh_tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/langs/zh_tw.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/zh_tw.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/base64/trumbowyg.base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/base64/trumbowyg.base64.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/base64/trumbowyg.base64.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/base64/trumbowyg.base64.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/cleanpaste/trumbowyg.cleanpaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/cleanpaste/trumbowyg.cleanpaste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/cleanpaste/trumbowyg.cleanpaste.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/cleanpaste/trumbowyg.cleanpaste.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/colors/trumbowyg.colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/colors/trumbowyg.colors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/colors/trumbowyg.colors.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/colors/trumbowyg.colors.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/colors/ui/sass/trumbowyg.colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/colors/ui/sass/trumbowyg.colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/emoji/trumbowyg.emoji.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/emoji/trumbowyg.emoji.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/emoji/trumbowyg.emoji.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/emoji/trumbowyg.emoji.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/emoji/ui/sass/trumbowyg.emoji.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/emoji/ui/sass/trumbowyg.emoji.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/emoji/ui/trumbowyg.emoji.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/emoji/ui/trumbowyg.emoji.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/emoji/ui/trumbowyg.emoji.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/emoji/ui/trumbowyg.emoji.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/giphy/trumbowyg.giphy.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/giphy/trumbowyg.giphy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/giphy/trumbowyg.giphy.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/giphy/trumbowyg.giphy.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/giphy/ui/sass/trumbowyg.giphy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/giphy/ui/sass/trumbowyg.giphy.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/giphy/ui/trumbowyg.giphy.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/giphy/ui/trumbowyg.giphy.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/giphy/ui/trumbowyg.giphy.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/giphy/ui/trumbowyg.giphy.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/highlight/trumbowyg.highlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/highlight/trumbowyg.highlight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/highlight/trumbowyg.highlight.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/highlight/trumbowyg.highlight.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/highlight/ui/sass/trumbowyg.highlight.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/highlight/ui/sass/trumbowyg.highlight.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/highlight/ui/trumbowyg.highlight.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/highlight/ui/trumbowyg.highlight.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/highlight/ui/trumbowyg.highlight.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/highlight/ui/trumbowyg.highlight.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/history/trumbowyg.history.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/history/trumbowyg.history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/history/trumbowyg.history.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/history/trumbowyg.history.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/mathml/trumbowyg.mathml.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mathml/trumbowyg.mathml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/mathml/trumbowyg.mathml.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mathml/trumbowyg.mathml.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/mathml/ui/sass/trumbowyg.mathml.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mathml/ui/sass/trumbowyg.mathml.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/mathml/ui/trumbowyg.mathml.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mathml/ui/trumbowyg.mathml.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/mathml/ui/trumbowyg.mathml.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mathml/ui/trumbowyg.mathml.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/mention/trumbowyg.mention.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mention/trumbowyg.mention.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/mention/trumbowyg.mention.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mention/trumbowyg.mention.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/mention/ui/sass/trumbowyg.mention.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mention/ui/sass/trumbowyg.mention.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/mention/ui/trumbowyg.mention.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mention/ui/trumbowyg.mention.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/mention/ui/trumbowyg.mention.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mention/ui/trumbowyg.mention.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/noembed/trumbowyg.noembed.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/noembed/trumbowyg.noembed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/noembed/trumbowyg.noembed.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/noembed/trumbowyg.noembed.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/pasteembed/trumbowyg.pasteembed.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/pasteembed/trumbowyg.pasteembed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/pasteembed/trumbowyg.pasteembed.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/pasteembed/trumbowyg.pasteembed.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/pasteimage/trumbowyg.pasteimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/pasteimage/trumbowyg.pasteimage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/pasteimage/trumbowyg.pasteimage.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/pasteimage/trumbowyg.pasteimage.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/resizimg/resizable-resolveconflict.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/resizimg/resizable-resolveconflict.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/resizimg/resizable-resolveconflict.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/resizimg/resizable-resolveconflict.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/ruby/trumbowyg.ruby.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/ruby/trumbowyg.ruby.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/ruby/trumbowyg.ruby.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/ruby/trumbowyg.ruby.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/specialchars/trumbowyg.specialchars.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/specialchars/trumbowyg.specialchars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/specialchars/trumbowyg.specialchars.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/specialchars/trumbowyg.specialchars.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/specialchars/ui/sass/trumbowyg.specialchars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/specialchars/ui/sass/trumbowyg.specialchars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/specialchars/ui/trumbowyg.specialchars.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/specialchars/ui/trumbowyg.specialchars.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/specialchars/ui/trumbowyg.specialchars.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/specialchars/ui/trumbowyg.specialchars.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/table/trumbowyg.table.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/table/trumbowyg.table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/table/trumbowyg.table.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/table/trumbowyg.table.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/table/ui/sass/trumbowyg.table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/table/ui/sass/trumbowyg.table.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/table/ui/trumbowyg.table.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/table/ui/trumbowyg.table.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/table/ui/trumbowyg.table.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/table/ui/trumbowyg.table.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/template/trumbowyg.template.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/template/trumbowyg.template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/template/trumbowyg.template.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/template/trumbowyg.template.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/upload/trumbowyg.upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/upload/trumbowyg.upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/plugins/upload/trumbowyg.upload.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/upload/trumbowyg.upload.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/trumbowyg.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/trumbowyg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/trumbowyg.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/trumbowyg.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/ui/icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/ui/icons.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/ui/sass/trumbowyg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/ui/sass/trumbowyg.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/ui/trumbowyg.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/ui/trumbowyg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/dist/ui/trumbowyg.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/ui/trumbowyg.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/base64/trumbowyg.base64.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/base64/trumbowyg.base64.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/base64/ui/icons/base64.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/base64/ui/icons/base64.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/cleanpaste/trumbowyg.cleanpaste.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/cleanpaste/trumbowyg.cleanpaste.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/colors/trumbowyg.colors.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/colors/trumbowyg.colors.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/colors/ui/icons/back-color.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/colors/ui/icons/back-color.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/colors/ui/icons/fore-color.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/colors/ui/icons/fore-color.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/colors/ui/sass/trumbowyg.colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/colors/ui/sass/trumbowyg.colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/emoji/trumbowyg.emoji.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/emoji/trumbowyg.emoji.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/emoji/ui/icons/emoji.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/emoji/ui/icons/emoji.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/emoji/ui/sass/trumbowyg.emoji.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/emoji/ui/sass/trumbowyg.emoji.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/fontfamily/trumbowyg.fontfamily.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/fontfamily/trumbowyg.fontfamily.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/fontsize/trumbowyg.fontsize.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/fontsize/trumbowyg.fontsize.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/fontsize/ui/icons/fontsize.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/fontsize/ui/icons/fontsize.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/giphy/trumbowyg.giphy.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/giphy/trumbowyg.giphy.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/giphy/ui/icons/giphy.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/giphy/ui/icons/giphy.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/giphy/ui/sass/trumbowyg.giphy.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/giphy/ui/sass/trumbowyg.giphy.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/highlight/trumbowyg.highlight.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/highlight/trumbowyg.highlight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/highlight/ui/icons/highlight.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/highlight/ui/icons/highlight.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/highlight/ui/sass/trumbowyg.highlight.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/highlight/ui/sass/trumbowyg.highlight.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/history/trumbowyg.history.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/history/trumbowyg.history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/insertaudio/trumbowyg.insertaudio.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/insertaudio/trumbowyg.insertaudio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/insertaudio/ui/icons/insert-audio.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/insertaudio/ui/icons/insert-audio.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/lineheight/trumbowyg.lineheight.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/lineheight/trumbowyg.lineheight.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/lineheight/ui/icons/lineheight.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/lineheight/ui/icons/lineheight.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/mathml/trumbowyg.mathml.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mathml/trumbowyg.mathml.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/mathml/ui/icons/mathml.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mathml/ui/icons/mathml.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/mathml/ui/sass/trumbowyg.mathml.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mathml/ui/sass/trumbowyg.mathml.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/mention/trumbowyg.mention.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mention/trumbowyg.mention.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/mention/ui/icons/mention.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mention/ui/icons/mention.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/mention/ui/sass/trumbowyg.mention.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mention/ui/sass/trumbowyg.mention.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/noembed/trumbowyg.noembed.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/noembed/trumbowyg.noembed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/noembed/ui/icons/noembed.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/noembed/ui/icons/noembed.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/pasteembed/trumbowyg.pasteembed.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/pasteembed/trumbowyg.pasteembed.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/pasteimage/trumbowyg.pasteimage.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/pasteimage/trumbowyg.pasteimage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/preformatted/trumbowyg.preformatted.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/preformatted/trumbowyg.preformatted.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/preformatted/ui/icons/preformatted.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/preformatted/ui/icons/preformatted.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/resizimg/resizable-resolveconflict.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/resizimg/resizable-resolveconflict.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/resizimg/trumbowyg.resizimg.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/resizimg/trumbowyg.resizimg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/ruby/trumbowyg.ruby.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/ruby/trumbowyg.ruby.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/ruby/ui/icons/ruby.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/ruby/ui/icons/ruby.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/specialchars/trumbowyg.specialchars.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/specialchars/trumbowyg.specialchars.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/specialchars/ui/icons/special-chars.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/specialchars/ui/icons/special-chars.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/specialchars/ui/sass/trumbowyg.specialchars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/specialchars/ui/sass/trumbowyg.specialchars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/table/trumbowyg.table.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/trumbowyg.table.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/table/ui/icons/col-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/col-delete.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/table/ui/icons/col-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/col-left.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/table/ui/icons/col-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/col-right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/table/ui/icons/row-above.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/row-above.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/table/ui/icons/row-below.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/row-below.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/table/ui/icons/row-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/row-delete.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/table/ui/icons/table-delete.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/table-delete.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/table/ui/icons/table.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/table.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/table/ui/sass/trumbowyg.table.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/sass/trumbowyg.table.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/template/trumbowyg.template.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/template/trumbowyg.template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/upload/trumbowyg.upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/upload/trumbowyg.upload.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/plugins/upload/ui/icons/upload.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/upload/ui/icons/upload.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/bg.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/bg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/by.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/by.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/ca.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ca.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/cs.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/cs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/da.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/da.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/de.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/de.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/el.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/el.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/en.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/en.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/es.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/es.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/es_ar.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/es_ar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/fa.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/fa.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/fi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/fi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/fr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/fr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/he.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/he.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/hr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/hr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/hu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/hu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/id.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/id.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/it.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/it.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/ja.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ja.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/ko.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ko.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/lt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/lt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/mn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/mn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/nl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/nl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/no_nb.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/no_nb.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/ph.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ph.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/pl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/pl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/pt.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/pt.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/pt_br.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/pt_br.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/ro.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ro.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/rs.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/rs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/rs_latin.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/rs_latin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/ru.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ru.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/sk.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/sk.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/sl.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/sl.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/sq.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/sq.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/sv.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/sv.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/th.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/th.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/tr.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/tr.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/ua.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ua.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/vi.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/vi.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/zh_cn.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/zh_cn.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/langs/zh_tw.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/zh_tw.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/trumbowyg.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/trumbowyg.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/blockquote.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/blockquote.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/bold.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/bold.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/close.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/close.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/create-link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/create-link.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/del.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/del.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/em.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/em.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/fullscreen.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/fullscreen.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/h1.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h1.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/h2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h2.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/h3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/h4.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h4.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/h5.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h5.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/h6.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h6.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/horizontal-rule.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/horizontal-rule.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/insert-image.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/insert-image.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/italic.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/italic.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/justify-center.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/justify-center.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/justify-full.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/justify-full.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/justify-left.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/justify-left.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/justify-right.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/justify-right.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/link.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/link.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/ordered-list.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/ordered-list.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/p.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/p.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/redo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/redo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/removeformat.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/removeformat.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/strikethrough.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/strikethrough.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/strong.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/strong.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/subscript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/subscript.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/superscript.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/superscript.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/underline.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/underline.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/undo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/undo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/unlink.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/unlink.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/unordered-list.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/unordered-list.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/icons/view-html.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/view-html.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/sass/trumbowyg.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/sass/trumbowyg.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/sass/trumbowyg.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/sass/trumbowyg.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/Trumbowyg/src/ui/sass/trumbowyg.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/sass/trumbowyg.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/adminka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/adminka.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/authorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/authorization.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/conf/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/block.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/.sass-cache/38649c5324bdf311f640bd0d0dfc91d04481f19e/style.sassc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/animations.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/background.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/icons.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/jquery-ui.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/jquery.fancybox.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/media.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/media.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/media.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/owl.carousel.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/style.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/style.sass" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/demo.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/jquery-ui.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/jquery.fancybox.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/loader.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/owl.carousel.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/plotly-latest.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/plotly-latest.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/trumbowyg_custom.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/lib/trumbowyg_custom.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/assets/css/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/assets/js/bundle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/bg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/by.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/by.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ca.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/cs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/da.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/de.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/el.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/es.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/es_ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/es_ar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fa.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/fr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/he.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/hr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/hu.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/id.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/it.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ja.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ko.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/lt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/mn.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/my.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/nl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/no_nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/no_nb.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ph.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pt.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pt_br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/pt_br.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ro.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/rs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/rs.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/rs_latin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/rs_latin.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ru.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sk.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sl.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sq.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/sv.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/th.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/tr.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/ua.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/vi.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/zh_cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/zh_cn.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/zh_tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/langs/zh_tw.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/base64/trumbowyg.base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/base64/trumbowyg.base64.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/cleanpaste/trumbowyg.cleanpaste.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/cleanpaste/trumbowyg.cleanpaste.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/colors/trumbowyg.colors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/colors/trumbowyg.colors.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/colors/ui/sass/trumbowyg.colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/colors/ui/trumbowyg.colors.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/emoji/trumbowyg.emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/emoji/trumbowyg.emoji.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/emoji/ui/sass/trumbowyg.emoji.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/emoji/ui/trumbowyg.emoji.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/emoji/ui/trumbowyg.emoji.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/fontfamily/trumbowyg.fontfamily.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/fontsize/trumbowyg.fontsize.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/giphy/trumbowyg.giphy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/giphy/trumbowyg.giphy.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/giphy/ui/sass/trumbowyg.giphy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/giphy/ui/trumbowyg.giphy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/giphy/ui/trumbowyg.giphy.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/highlight/trumbowyg.highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/highlight/trumbowyg.highlight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/highlight/ui/sass/trumbowyg.highlight.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/highlight/ui/trumbowyg.highlight.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/highlight/ui/trumbowyg.highlight.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/history/trumbowyg.history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/history/trumbowyg.history.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/insertaudio/trumbowyg.insertaudio.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/lineheight/trumbowyg.lineheight.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mathml/trumbowyg.mathml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mathml/trumbowyg.mathml.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mathml/ui/sass/trumbowyg.mathml.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mathml/ui/trumbowyg.mathml.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mathml/ui/trumbowyg.mathml.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mention/trumbowyg.mention.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mention/trumbowyg.mention.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mention/ui/sass/trumbowyg.mention.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mention/ui/trumbowyg.mention.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/mention/ui/trumbowyg.mention.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/noembed/trumbowyg.noembed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/noembed/trumbowyg.noembed.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/pasteembed/trumbowyg.pasteembed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/pasteembed/trumbowyg.pasteembed.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/pasteimage/trumbowyg.pasteimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/pasteimage/trumbowyg.pasteimage.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/preformatted/trumbowyg.preformatted.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/resizimg/resizable-resolveconflict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/resizimg/resizable-resolveconflict.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/resizimg/trumbowyg.resizimg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/ruby/trumbowyg.ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/ruby/trumbowyg.ruby.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/specialchars/trumbowyg.specialchars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/specialchars/trumbowyg.specialchars.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/specialchars/ui/sass/trumbowyg.specialchars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/specialchars/ui/trumbowyg.specialchars.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/specialchars/ui/trumbowyg.specialchars.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/table/trumbowyg.table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/table/trumbowyg.table.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/table/ui/sass/trumbowyg.table.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/table/ui/trumbowyg.table.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/table/ui/trumbowyg.table.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/template/trumbowyg.template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/template/trumbowyg.template.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/upload/trumbowyg.upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/plugins/upload/trumbowyg.upload.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/trumbowyg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/trumbowyg.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/ui/icons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/ui/sass/trumbowyg.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/ui/trumbowyg.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/dist/ui/trumbowyg.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/allowtagsfrompaste/trumbowyg.allowtagsfrompaste.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/base64/trumbowyg.base64.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/base64/ui/icons/base64.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/cleanpaste/trumbowyg.cleanpaste.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/colors/trumbowyg.colors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/colors/ui/icons/back-color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/colors/ui/icons/fore-color.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/colors/ui/sass/trumbowyg.colors.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/emoji/trumbowyg.emoji.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/emoji/ui/icons/emoji.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/emoji/ui/sass/trumbowyg.emoji.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/fontfamily/trumbowyg.fontfamily.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/fontsize/trumbowyg.fontsize.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/fontsize/ui/icons/fontsize.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/giphy/trumbowyg.giphy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/giphy/ui/icons/giphy.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/giphy/ui/sass/trumbowyg.giphy.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/highlight/trumbowyg.highlight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/highlight/ui/icons/highlight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/highlight/ui/sass/trumbowyg.highlight.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/history/trumbowyg.history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/insertaudio/trumbowyg.insertaudio.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/insertaudio/ui/icons/insert-audio.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/lineheight/trumbowyg.lineheight.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/lineheight/ui/icons/lineheight.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mathml/trumbowyg.mathml.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mathml/ui/icons/mathml.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mathml/ui/sass/trumbowyg.mathml.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mention/trumbowyg.mention.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mention/ui/icons/mention.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/mention/ui/sass/trumbowyg.mention.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/noembed/trumbowyg.noembed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/noembed/ui/icons/noembed.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/pasteembed/trumbowyg.pasteembed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/pasteimage/trumbowyg.pasteimage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/preformatted/trumbowyg.preformatted.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/preformatted/ui/icons/preformatted.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/resizimg/resizable-resolveconflict.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/resizimg/trumbowyg.resizimg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/ruby/trumbowyg.ruby.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/ruby/ui/icons/ruby.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/specialchars/trumbowyg.specialchars.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/specialchars/ui/icons/special-chars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/specialchars/ui/sass/trumbowyg.specialchars.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/trumbowyg.table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/col-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/col-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/col-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/row-above.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/row-below.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/row-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/table-delete.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/icons/table.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/table/ui/sass/trumbowyg.table.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/template/trumbowyg.template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/upload/trumbowyg.upload.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/plugins/upload/ui/icons/upload.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/bg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/by.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/cs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/da.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/el.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/en.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/es.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/es_ar.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/fi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/fr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/he.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/hr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/hu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/id.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/it.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ja.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ko.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/lt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/mn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/my.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/nl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/no_nb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ph.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/pl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/pt.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/pt_br.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ro.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/rs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/rs_latin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ru.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/sk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/sl.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/sq.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/sv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/th.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/tr.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/ua.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/vi.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/zh_cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/langs/zh_tw.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/trumbowyg.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/blockquote.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/bold.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/close.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/create-link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/del.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/em.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/fullscreen.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h3.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h4.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/h6.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/horizontal-rule.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/insert-image.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/italic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/justify-center.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/justify-full.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/justify-left.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/justify-right.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/link.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/ordered-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/p.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/redo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/removeformat.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/strikethrough.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/strong.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/subscript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/superscript.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/underline.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/undo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/unlink.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/unordered-list.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/icons/view-html.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/sass/trumbowyg.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/sass/trumbowyg.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/Trumbowyg/src/ui/sass/trumbowyg.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/lib/trumbowyg_custom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/module/sortable-resizable.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/admin/composer.json</pharConfigPath>
     <execution>
       <executable path="composer" />
     </execution>
@@ -376,6 +357,11 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/admin/vendor/composer" />
+    </include_path>
+  </component>
   <component name="ProjectId" id="1dg7Hr3mWn2xTRGo5aseJ4M1ULz" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -387,23 +373,23 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/src/scss/module" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/src/scss" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/src/js" />
+      <recent name="$PROJECT_DIR$/admin" />
+      <recent name="$PROJECT_DIR$/admin/src/js/module" />
+      <recent name="$PROJECT_DIR$/admin/src/js/lib" />
+      <recent name="$PROJECT_DIR$/admin/inc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/src/scss" />
       <recent name="$PROJECT_DIR$/admin/src/scss/module" />
       <recent name="$PROJECT_DIR$/admin/src/js/lib" />
       <recent name="$PROJECT_DIR$/admin/src" />
       <recent name="$PROJECT_DIR$/admin" />
-      <recent name="$PROJECT_DIR$/admin/conf" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/admin/src/js/module" />
-      <recent name="$PROJECT_DIR$/admin/src/js/lib" />
-      <recent name="$PROJECT_DIR$/admin" />
-      <recent name="$PROJECT_DIR$/admin/inc" />
-      <recent name="$PROJECT_DIR$/admin/conf" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -441,6 +427,8 @@
       <workItem from="1594396325435" duration="11739000" />
       <workItem from="1594440348557" duration="220000" />
       <workItem from="1594742377239" duration="7276000" />
+      <workItem from="1594798988799" duration="37000" />
+      <workItem from="1594826687469" duration="5461000" />
     </task>
     <servers />
   </component>

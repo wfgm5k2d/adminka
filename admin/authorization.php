@@ -13,7 +13,7 @@ $pass = md5($sPass);
 if (!empty($login) && !empty($pass)) {
     if ($login === $_SESSION['login'] && $pass === $_SESSION['pass'] || $login === 'admin' && $pass === 'cc4d9aea071a2b6f38c76130a8e088f3') {
         $_SESSION['user_activ_admin'] = 1;
-        header('Location: index.php');
+        header('Location: inc/body.php');
     } else {
         $_SESSION['user_activ_admin'] = 0;
     }
