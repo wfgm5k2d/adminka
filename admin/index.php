@@ -12,7 +12,7 @@ if ($_SESSION['user_activ_admin'] == 1) {
     if (!empty($sUrl) && $sUrl != '' && $sUrl != 'index') {
         require 'inc/' . strtok($sUrl, '?') . '.php';
     } else {
-        include ('inc/body.php');
+        include ('body.php');
     }
     include 'inc/footer.php';
 } else {

@@ -1,5 +1,17 @@
-$(document).ready(function () {
 
+import $ from 'jquery';
+
+let url = window.location.href;
+
+//Обрезаем конец:
+var from = url.search('admin/'); 
+var to = url.length;
+let newstr = url.substring(from,to);
+
+const PATH = newstr.split('_view')[0];
+if (PATH == 'admin/list')
+{
+$(document).ready(function () {
     function loadcontent() {
         $('.loadcontent').html("");
         $.ajax({
@@ -233,32 +245,5 @@ $(document).ready(function () {
             }
         });
     });
-
-    //При нажатии на "Загрузить изображение"
-    function handleFileSelect(evt) {
-        let file = evt.target.files;
-        let f = file[0];
-        // Only process image files.
-        if (!f.type.match('image.*')) {
-            alert("Загрузите пожалуйста картинку....");
-        }
-        let reader = new FileReader();
-        reader.onload = (function (theFile) {
-            return function (e) {
-                // Render thumbnail.
-                let span = document.createElement('span');
-                span.className = 'span-relative';
-                span.innerHTML = ['<img class="thumb" title="', escape(theFile.name), '" src="', e.target.result, '" /><span class="thumb__preview">Это превью. Нажмите "Загрузить изображение", чтобы сохранить его</span>'].join('');
-                document.querySelector('.output').insertBefore(span, null);
-            };
-        })(f);
-        reader.readAsDataURL(f);
-    }
-
-    document.getElementById('upload').addEventListener('change', handleFileSelect, false);
-
-    //Сортировка для вывода
-    $('body').on('mouseup ', '.elname', function () {
-        //
-    })
 });
+}

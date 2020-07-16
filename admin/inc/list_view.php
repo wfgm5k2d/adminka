@@ -165,4 +165,3 @@ if (empty($_GET['id'])) {
 }
 ?>
 <div class="clear"></div>
-<script type="text/javascript" src="conf/list.js" defer></script>

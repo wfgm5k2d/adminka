@@ -1,10 +1,12 @@
+import $ from 'jquery';
+
 $(document).ready(function() {
 
 	function loadcontent()
 	{
 		$('.loadcontent').html("");
 		$.ajax({
-			url: '../conf/catalog_load.php',
+			url: '../conf/menu_load.php',
 			type: 'POST',
 			data: 'jsondata',
 			cache: false,
@@ -22,13 +24,13 @@ $(document).ready(function() {
 	{
 		$('.loadcontentplus').html("");
 		$.ajax({
-			url: '../conf/catalog_load2.php',
+			url: '../conf/menu_load2.php',
 			type: 'POST',
 			data: 'jsondata',
 			cache: false,
 			success: function(jsondata){
 				$.each(jsondata,function(indx,element){
-					$('.loadcontentplus').append('<div class="elnameplus"><div class="elname__a">'+element.namedop+'</div><div class="delete" data-id="'+element.iddop+'"></div><div class="editplus" data-id="'+element.iddop+'" data-name="'+element.namedop+'" data-descr="'+element.descriptdop+'" data-content="'+element.contentdop+'"></div></div>');
+					$('.loadcontentplus').append('<div class="elnameplus"><div class="elname__a">'+element.namedop+'</div><div class="delete" data-id="'+element.iddop+'"></div><div class="editplus" data-id="'+element.iddop+'" data-name="'+element.namedop+'"></div></div>');
 				});
 			}
 		});
@@ -79,12 +81,8 @@ $(document).ready(function() {
 		$('.editblockplus').hide();
 		var titleId = $(this).attr('data-id');
 		var titleName = $(this).attr('data-name');
-		var titleDescript = $(this).attr('data-descr');
-		var titleContent = $(this).attr('data-content');
 		$('.ajax_editblock-id').val(titleId);
 		$('.ajax_editblock-name').val(titleName);
-		$('.ajax_editblock-descript').val(titleDescript);
-		$('.ajax_editblock-content').val(titleContent);
 	});
 
 	$('body').on('click','.editplus',function(){
@@ -96,18 +94,14 @@ $(document).ready(function() {
 		$('.addblockplus').hide();
 		var titleId = $(this).attr('data-id');
 		var titleName = $(this).attr('data-name');
-		var titleDescript = $(this).attr('data-descr');
-		var titleContent = $(this).attr('data-content');
 		$('.ajax_editblock-id-plus').val(titleId);
 		$('.ajax_editblock-name-plus').val(titleName);
-		$('.ajax_editblock-descript-plus').val(titleDescript);
-		$('.ajax_editblock-content-plus').val(titleContent);
 	});
 
 	$('.deleteblock-btn').click(function(){
 		var id = $('.deleteblock-id').val();
 		$.ajax({
-			url: '../conf/catalog_delete.php',
+			url: '../conf/menu_delete.php',
 			type: 'POST',
 			data : 'id='+id,
 			cache: false,
@@ -124,7 +118,7 @@ $(document).ready(function() {
 		var name = $('.ajax_addblock-name').val();
 		var parent = $('.ajax_addblock-parent').val();
 		$.ajax({
-			url: '../conf/catalog_add.php',
+			url: '../conf/menu_add.php',
 			type: 'POST',
 			data : 'name='+name+'&parent='+parent,
 			cache: false,
@@ -139,13 +133,11 @@ $(document).ready(function() {
 
 	$('.ajax_addblock-save-plus').click(function(){
 		var name = $('.ajax_addblock-name-plus').val();
-		var descript = $('.ajax_addblock-descript-plus').val();
-		var content = $('.ajax_addblock-content-plus').val();
 		var parent = idglass;
 		$.ajax({
-			url: '../conf/catalog_add.php',
+			url: '../conf/menu_add.php',
 			type: 'POST',
-			data : 'name='+name+'&descript='+descript+'&content='+content+'&parent='+parent,
+			data : 'name='+name+'&parent='+parent,
 			cache: false,
 			success: function(jsondata){
 				$('.divright').hide();
@@ -159,12 +151,10 @@ $(document).ready(function() {
 	$('.ajax_editblock-save').click(function(){
 		var id = $('.ajax_editblock-id').val();
 		var name = $('.ajax_editblock-name').val();
-		var descript = $('.ajax_editblock-descript').val();
-		var content = $('.ajax_editblock-content').val();
 		$.ajax({
-			url: '../conf/list_edit.php',
+			url: '../conf/menu_edit.php',
 			type: 'POST',
-			data : 'id='+id+'&name='+name+'&descript='+descript+'&content='+content,
+			data : 'id='+id+'&name='+name,
 			cache: false,
 			success: function(jsondata){
 				$('.divright').hide();
@@ -178,13 +168,10 @@ $(document).ready(function() {
 	$('.ajax_editblock-save-plus').click(function(){
 		var id = $('.ajax_editblock-id-plus').val();
 		var name = $('.ajax_editblock-name-plus').val();
-		var descript = $('.ajax_editblock-descript-plus').val();
-		var content = $('.ajax_editblock-content-plus').val();
-		var parent = $('.ajax_editblock-parent-plus').val();
 		$.ajax({
-			url: '../conf/catalog_edit.php',
+			url: '../conf/menu_edit.php',
 			type: 'POST',
-			data : 'id='+id+'&name='+name+'&descript='+descript+'&content='+content+'&parent='+parent,
+			data : 'id='+id+'&name='+name,
 			success: function(jsondata){
 				$('.divright').hide();
 				$('.editblock').hide();

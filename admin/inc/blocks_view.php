@@ -47,4 +47,3 @@
     </form>
 </div>
 <div class="clear"></div>
-<script type="text/javascript" src="conf/block.js"></script>
