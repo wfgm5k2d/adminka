@@ -19,7 +19,23 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60408328-5bf8-4d0a-a45b-ad3372989be8" name="Default Changelist" comment="" />
+    <list default="true" id="60408328-5bf8-4d0a-a45b-ad3372989be8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/conf/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/authorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/authorization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/class/ACLists.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/class/ACLists.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/conf/list_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/list_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/conf/list_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/list_delete.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/conf/list_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/list_edit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/conf/list_load2.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/list_load2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/conf/loaderImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/loaderImage.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/assets/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/list_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/list_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/module/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/admin/yarn.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,22 +74,24 @@
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/src/scss" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/admin/src/js" />
-      <recent name="$PROJECT_DIR$/admin" />
-      <recent name="$PROJECT_DIR$/admin/src/js/module" />
-      <recent name="$PROJECT_DIR$/admin/src/js/lib" />
-      <recent name="$PROJECT_DIR$/admin/inc" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/admin/src/scss" />
       <recent name="$PROJECT_DIR$/admin/src/scss/module" />
       <recent name="$PROJECT_DIR$/admin/src/js/lib" />
       <recent name="$PROJECT_DIR$/admin/src" />
       <recent name="$PROJECT_DIR$/admin" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/src/js" />
+      <recent name="$PROJECT_DIR$/admin" />
+      <recent name="$PROJECT_DIR$/admin/src/js/module" />
+      <recent name="$PROJECT_DIR$/admin/src/js/lib" />
+      <recent name="$PROJECT_DIR$/admin/inc" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -133,6 +151,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="258" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595005848913">
+      <screen x="0" y="27" width="1600" height="823" />
+    </state>
+    <state x="258" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1600.823@0.27.1600.823" timestamp="1595005848913" />
     <state x="411" y="187" width="758" height="517" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1593002351748">
       <screen x="0" y="27" width="1600" height="823" />
     </state>
@@ -149,10 +171,10 @@
       <screen x="0" y="27" width="1600" height="823" />
     </state>
     <state x="578" y="158" width="433" height="568" key="NewPhpClassDialog/0.27.1600.823@0.27.1600.823" timestamp="1592921694113" />
-    <state x="595" y="364" width="399" height="156" key="NewPhpFileDialog" timestamp="1593449090953">
+    <state x="595" y="364" width="399" height="156" key="NewPhpFileDialog" timestamp="1595011641504">
       <screen x="0" y="27" width="1600" height="823" />
     </state>
-    <state x="595" y="364" width="399" height="156" key="NewPhpFileDialog/0.27.1600.823@0.27.1600.823" timestamp="1593449090953" />
+    <state x="595" y="364" width="399" height="156" key="NewPhpFileDialog/0.27.1600.823@0.27.1600.823" timestamp="1595011641504" />
     <state x="572" y="245" width="446" height="393" key="com.jetbrains.php.test.PhpNewTestDialog" timestamp="1592851558279">
       <screen x="0" y="27" width="1600" height="823" />
     </state>
