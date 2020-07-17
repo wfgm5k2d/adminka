@@ -1,11 +1,11 @@
 <?php
 include 'function.php';
 
-if($_REQUEST['id'])
+if($_REQUEST['parent'] != '')
 {
     $sName = $_REQUEST['name'];
     $sUrl = str2url($sName);
-    $sParent = $_REQUEST['id'];
+    $sParent = $_REQUEST['parent'];
 
     require '../core/ACConnect.php';
     $query = ACDatabase::add("INSERT INTO list SET name = ?, url = ?, parent = ?", array($sName, $sUrl, $sParent));
@@ -15,8 +15,7 @@ if($_REQUEST['id'])
     else
         echo 0;
 }
- // && isset($_POST['img'])
-else if($_REQUEST['name'])
+else
 {
     $sName = $_REQUEST['name'];
     $sParent = 0;

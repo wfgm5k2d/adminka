@@ -38,6 +38,8 @@ if (empty($_GET['id'])) {
 <!--                        <div class="seeImage-image" style="background: url('../../../upload/8f87cf36561f2cb749d64738bbbb0912.png');"></div>-->
 <!--                    </div>-->
 <!--                </p>-->
+
+
                 <input type="submit" value="Сохранить" class="ajax_addblock-save save">
                 <input value="Отменить" class="ajax_editblock-cancel cancel">
             </form>
@@ -98,7 +100,7 @@ if (empty($_GET['id'])) {
     <div class="divright">
         <div class="addblock">
             <h1> Добавить подленту </h1>
-            <div class="ajax_addblock">
+            <form class="ajax_addblock">
                 <p class="after">Введите название подленты:
                     <span class="url">
                         URL добавится автоматически
@@ -106,9 +108,9 @@ if (empty($_GET['id'])) {
                     <input type="text" name="name" placeholder="Имя подленты" class="ajax_addblock-name input">
                 </p>
                 <input type="hidden" name="parent" value="" class="ajax_addblock-parent input">
-                <input type="submit" name="send" value="Сохранить" class="ajax_addblock-save save">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
-            </div>
+                <input type="submit" value="Сохранить" class="ajax_addblock-save save">
+                <input value="Отменить" class="ajax_editblock-cancel cancel">
+            </form>
         </div>
 
         <div class="delblock">
@@ -122,7 +124,7 @@ if (empty($_GET['id'])) {
 
         <div class="editblockplus">
             <h1> Изменить подленту </h1>
-            <div class="ajax_editblockplus">
+            <form class="ajax_editblock">
                 <input type="hidden" name="id" class="ajax_editblock-id-plus">
                 <p class="after">Новое имя подленты:
                     <span class="url">
@@ -139,26 +141,27 @@ if (empty($_GET['id'])) {
                     <textarea type="text" name="content" id="content_editor" placeholder="Полное описание подленты"
                               class="ajax_editblock-content-plus"></textarea>
                 </p>
-                <p class="after">Загрузите изображение подленты:
-                <div class="seeImage">
-                    <form action="../conf/loaderImage.php" class="loadToImage" method="post"
-                          enctype="multipart/form-data">
-                        <label for="upload" class="bigdownloadbutton">Добавьте изображение
-                            <div class="imagepodstava"></div>
-                        </label>
-                        <input type="hidden" name="name" placeholder="Новое имя подленты" value=""
-                               class="ajax_editblock-name-plus input">
-                        <input type="file" class="upload-image" id="upload" name="upload">
-                        <button type="submit" class="add_question" name="editImage">
-                            Загрузить изображение
-                        </button>
-                    </form>
-                    <span class="output"></span>
-                </div>
-                </p>
-                <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save-plus save">
-                <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
-            </div>
+<!--                <p class="after">Загрузите изображение подленты:-->
+<!--                <div class="seeImage">-->
+<!--                    <form action="../conf/loaderImage.php" class="loadToImage" method="post"-->
+<!--                          enctype="multipart/form-data">-->
+<!--                        <label for="upload" class="bigdownloadbutton">Добавьте изображение-->
+<!--                            <div class="imagepodstava"></div>-->
+<!--                        </label>-->
+<!--                        <input type="hidden" name="name" placeholder="Новое имя подленты" value=""-->
+<!--                               class="ajax_editblock-name-plus input">-->
+<!--                        <input type="file" class="upload-image" id="upload" name="upload">-->
+<!--                        <button type="submit" class="add_question" name="editImage">-->
+<!--                            Загрузить изображение-->
+<!--                        </button>-->
+<!--                    </form>-->
+<!--                    <span class="output"></span>-->
+<!--                </div>-->
+<!--                </p>-->
+                <input type="hidden" name="parent" value="" class="ajax_addblock-parent input">
+                <input type="submit" name="send" value="Сохранить" class="ajax_editblock-save-plus save">
+                <input type="submit" value="Отменить" class="ajax_editblock-cancel cancel">
+            </form>
         </div>
     </div>
     <?
