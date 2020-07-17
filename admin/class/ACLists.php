@@ -74,5 +74,6 @@ class ACLists
     public static function delete($nId)
     {
         ACDatabase::set("DELETE FROM `list` WHERE `id` = ?", $nId);
+        ACDatabase::set("DELETE FROM `list` WHERE `parent` = ?", $nId);
     }
 }
