@@ -16,5 +16,5 @@ if ($_SESSION['user_activ_admin'] == 1) {
     }
     include 'inc/footer.php';
 } else {
-    include 'authorization.php';
+    require 'authorization.php';
 }
