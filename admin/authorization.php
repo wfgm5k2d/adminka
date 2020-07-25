@@ -1,4 +1,6 @@
 <?php
+require_once 'class/function.php';
+require_once 'core/ACConnect.php';
 session_start();
 
 $url = explode('/', $_SERVER['REQUEST_URI']);
