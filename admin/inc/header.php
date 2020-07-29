@@ -23,7 +23,7 @@ error_reporting('E_ALL');
     if ($parentDir == 'inc')
         $parentDir = 'assets';
     else
-        $parentDir = 'inc/assets';
+        $parentDir = '/admin/dist/assets';
     ?>
     <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/css/styles.css">
     <link rel="stylesheet" type="text/css" href="<?= $parentDir ?>/icofont/icofont.min.css">

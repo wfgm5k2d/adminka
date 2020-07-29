@@ -1,7 +1,7 @@
 <?php
     // Перезапишем переменные для удобства
-    $filePath  = $_FILES['upload']['tmp_name'];
-    $errorCode = $_FILES['upload']['error'];
+    $filePath  = $_FILES['upload-add']['tmp_name'];
+    $errorCode = $_FILES['upload-add']['error'];
 
     // Проверим на ошибки
     if ($errorCode !== UPLOAD_ERR_OK || !is_uploaded_file($filePath)) {
@@ -60,14 +60,12 @@
 
     // Переместим картинку с новым именем и расширением в папку /upload
     if (move_uploaded_file($filePath, __DIR__ . '../../../upload/' . $name . $format)) {
-//        include 'conf.php';
-//        $id = $_POST['titleId'];
-//        $name_fo_update = $_POST['name'];
-//        $name_picture = $name . $format;
-//        $query ="UPDATE list SET img='$name_picture' WHERE id='$id'";
-//        $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
-//        header('Location: ../inc/list_view.php');
-        echo 1;
+        require '../core/ACConnect.php';
+        $id = $_POST['titleId'];
+        $name_fo_update = strtok($_FILES['upload-add']['name'], '.');
+        $name_picture = $name . $format;
+        $query = ACDatabase::set("UPDATE list SET img = ? WHERE id = ?", array($name_picture, $id));
+        header('Location: /admin/list_view');
     }
     else
     {

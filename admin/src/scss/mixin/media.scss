@@ -23,13 +23,13 @@
 }
 
 @mixin mediaLG() {
-    @media (min-width: #{$mediaLG}) and (max-width: $mediaXL - 1) {
+    @media (min-width: #{$mediaLG}) and (max-width: $mediaLG - 1) {
         @content;
     }
 }
 
 @mixin mediaXL() {
-    @media (min-width: #{$mediaXL}) and (max-width: $mediaMAX) {
+    @media (min-width: #{$mediaLG}) and (max-width: $mediaMAX) {
         @content;
     }
 }

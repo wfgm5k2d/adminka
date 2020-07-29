@@ -1,30 +1,32 @@
 <?php
-session_start();
-include('conf.php');
-include('function.php');
 
-if($_SESSION['id'])
+include 'function.php';
+
+if($_REQUEST['parent'] != '')
 {
-    $name = $_POST['name'];
-    $url = str2url($name);
-    $parent = $_SESSION['id'];
-    $result = mysqli_query($link, "INSERT INTO menu (name, url, parent) VALUES ('$name', '$url', '$parent')");
+    $sName = $_REQUEST['name'];
+    $sUrl = str2url($sName);
+    $sParent = $_REQUEST['parent'];
 
-    if ($result)
-        echo 'pomeho';
+    require '../core/ACConnect.php';
+    $query = ACDatabase::add("INSERT INTO list SET name = ?, url = ?, parent = ?", array($sName, $sUrl, $sParent));
+
+    if ($query)
+        echo 1;
     else
         echo 0;
 }
-// && isset($_POST['img'])
-else if($_POST['parent'] == '')
+else
 {
-    $name = $_POST['name'];
-    $parent = 0;
-    $url = str2url($name);
-    $result = mysqli_query($link, "INSERT INTO menu (name, url, parent) VALUES ('$name', '$url', '$parent')");
+    $sName = $_REQUEST['name'];
+    $sParent = 0;
+    $sUrl = str2url($sName);
 
-    if ($result)
-        echo 'treho';
+    require '../core/ACConnect.php';
+    $query = ACDatabase::add("INSERT INTO list SET name = ?, url = ?, parent = ?", array($sName, $sUrl, $sParent));
+
+    if ($query)
+        echo 1;
     else
         echo 0;
 }

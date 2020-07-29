@@ -1,7 +1,5 @@
-.idea
-
-vendor/
-
+*.log
+*.lock
 node_modules
-
-.docker
+.idea
+*vendor

@@ -1,22 +1,20 @@
 {
-    "name": "artcomunity-admin",
+    "name": "html-sass-babel-webpack-boilerplate",
     "version": "1.0.0",
+    "main": "./src/server.js",
     "scripts": {
-        "start": "webpack --config ./src/webpack.config.babel.js --mode development --env.development --watch",
-        "build": "webpack --config ./src/webpack.config.babel.js --mode production --env.production"
+        "serve": "webpack-dev-server --config ./webpack/config.dev.babel.js --mode development ",
+        "start": "node ./webpack/server.js",
+        "start-yarn": "node ./webpack/server.js --yarn",
+        "build": "webpack --config ./webpack/config.prod.babel.js --mode production --env.production",
+        "eslint": "eslint src/**/*.js",
+        "eslint-fix": "eslint src/**/*.js --fix"
     },
-    "repository": "https://github.com/wfgm5k2d/adminka.git",
-    "author": "artcomunity",
+    "repository": "https://github.com/izica/html-sass-babel-webpack-boilerplate.git",
+    "author": "izica <artemiztomska@gmail.com>",
     "license": "MIT",
     "dependencies": {
-        "@babel/polyfill": "^7.8.7",
-        "air-datepicker": "^2.2.3",
-        "dropzone": "^5.7.1",
-        "imask": "^4.1.5",
-        "inputmask": "^5.0.3",
-        "jquery": "^3.3.1",
-        "smooth-scrollbar": "^8.5.2",
-        "swiper": "^4.4.6"
+        "jquery": "^3.3.1"
     },
     "devDependencies": {
         "@babel/core": "^7.2.2",

@@ -20,20 +20,62 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60408328-5bf8-4d0a-a45b-ad3372989be8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/conf/upload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/authorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/authorization.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/class/ACLists.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/class/ACLists.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/conf/list_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/list_add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/conf/list_delete.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/list_delete.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/conf/list_edit.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/list_edit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/conf/list_load2.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/list_load2.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/class/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/conf/.htaccess" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/conf/loaderImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/loaderImage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/assets/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/conf/menu_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/menu_add.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/fonts/icofont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/fonts/icofont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/fonts/icofont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/fonts/icofont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/fonts/icofont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/icofont.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/icofont.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/add.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/block-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/block.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/catalog-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/catalog.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/delete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/downloadfile-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/downloadfile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/edit.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/exit-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/glas.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/home-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/home.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/item-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/item.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/list-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/list.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/menu-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/menu.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/message-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/new-message-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/new-message.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/new-reviews-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/page-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/page.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/reviews-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/setting-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/setting.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/inc/list_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/list_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/js/module/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/module/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/mixin/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/mixin/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/module/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/module/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/variables/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/variables/media.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/webpack.config.babel.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/admin/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,25 +115,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/src/scss" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/src/assets/img" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/admin/src/scss" />
-      <recent name="$PROJECT_DIR$/admin/src/scss/module" />
-      <recent name="$PROJECT_DIR$/admin/src/js/lib" />
-      <recent name="$PROJECT_DIR$/admin/src" />
-      <recent name="$PROJECT_DIR$/admin" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/conf" />
+      <recent name="$PROJECT_DIR$/admin/inc" />
       <recent name="$PROJECT_DIR$/admin/src/js" />
       <recent name="$PROJECT_DIR$/admin" />
       <recent name="$PROJECT_DIR$/admin/src/js/module" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/src/assets/img" />
+      <recent name="$PROJECT_DIR$/admin/src/scss/module" />
+      <recent name="$PROJECT_DIR$/admin/src/scss/base" />
+      <recent name="$PROJECT_DIR$/admin/src/scss" />
       <recent name="$PROJECT_DIR$/admin/src/js/lib" />
-      <recent name="$PROJECT_DIR$/admin/inc" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -99,6 +144,7 @@
       <command value="mpt" />
     </option>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -132,11 +178,14 @@
       <workItem from="1594798988799" duration="37000" />
       <workItem from="1594826687469" duration="5461000" />
       <workItem from="1594913673014" duration="10000" />
+      <workItem from="1595685435584" duration="6498000" />
+      <workItem from="1595785702998" duration="18000" />
+      <workItem from="1596029066192" duration="1788000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

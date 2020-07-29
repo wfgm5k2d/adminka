@@ -4,6 +4,6 @@
     Персональная разработка "ArtComunity" <?= date('Y'); ?>
 </footer>
 </div><!--wrapper-->
-<script src="/admin/inc/assets/js/bundle.js"></script>
+<script src="/admin/dist/assets/js/bundle.js"></script>
 </body>
 </html>

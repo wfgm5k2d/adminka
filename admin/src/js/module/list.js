@@ -40,7 +40,7 @@ if (PATH == 'admin/list') {
                 cache: false,
                 success: function (jsondata) {
                     $.each(jsondata, function (indx, element) {
-                        $('.loadcontentplus').append("<div class='elnameplus'><div class='elname__a'>" + element.name + "</div><div class='delete' data-id='" + element.id + "'></div><div class='editplus' data-id='" + element.id + "' data-name='" + element.name + "' data-descript='" + element.descript + "' data-content='" + element.content + "'></div></div>");
+                        $('.loadcontentplus').append("<div class='elnameplus'><div class='elname__a'>" + element.name + "</div><div class='delete' data-id='" + element.id + "'></div><div class='editplus' data-id='" + element.id + "' data-name='" + element.name + "' data-descript='" + element.descript + "' data-content='" + element.content + "' data-image='" + element.img + "'></div></div>");
                     });
                 }
             });
@@ -96,11 +96,13 @@ if (PATH == 'admin/list') {
             let titleName = $(this).data('name');
             let editDescription = $(this).data('descript');
             let editContent = $(this).data('content');
+            let editImage = $(this).data('image');
             $('.ajax_editblock-id').val(titleId);
             $('.ajax_editblock-name').val(titleName);
             $('.ajax_editblock-descript, .ajax_editblock-content').prev().text('');
             $('.ajax_editblock-descript-plus').text(editDescription);
             $('.ajax_editblock-content-plus').text(editContent);
+            $('.seeImage-image').css('background', 'url("/upload/'+editImage+'")');
             $('.form-edit-img').val(titleId);
         });
 
@@ -117,11 +119,14 @@ if (PATH == 'admin/list') {
             let titleName = $(this).attr('data-name');
             let editDescription = $(this).attr('data-descript');
             let editContent = $(this).attr('data-content');
+            let editImage = $(this).data('image');
             $('.ajax_editblock-id-plus').val(titleId);
             $('.ajax_editblock-name-plus').val(titleName);
             $('.ajax_editblock-descript-plus, .ajax_editblock-content-plus').prev().text('');
             $('.ajax_editblock-descript-plus').prev().append(editDescription);
             $('.ajax_editblock-content-plus').prev().append(editContent);
+            $('.seeImage-image').css('background', 'url("/upload/'+editImage+'")');
+            $('.form-edit-img').val(titleId);
         });
 
         $('.deleteblock-btn').click(function () {
@@ -197,5 +202,6 @@ if (PATH == 'admin/list') {
                 }
             });
         });
+
     });
 }
