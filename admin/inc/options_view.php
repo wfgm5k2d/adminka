@@ -1,4 +1,4 @@
-<div class="divleft">
+<div class="divleft" id="options">
     <h1> Настройки </h1>
 
     <div class="loadcontent"></div>

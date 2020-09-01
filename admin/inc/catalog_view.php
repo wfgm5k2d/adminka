@@ -1,12 +1,13 @@
 <?php
 session_start();
 include('../../class/func_start.php');
+
 $url = explode('/', $_SERVER['PHP_SELF']);
 
 if (in_array('catalog_view.php', $url) && empty($_GET['id'])) {
     $_SESSION['id'] = '';
     ?>
-    <div class="divleft">
+    <div class="divleft" id="catalog">
         <h1> Каталог </h1>
         <div class="loadcontent"></div>
         <div class="clear"></div>
@@ -170,4 +171,3 @@ if (in_array('catalog_view.php', $url) && empty($_GET['id'])) {
 }
 ?>
 <div class="clear"></div>
-<script type="text/javascript" src="../conf/catalog.js"></script>

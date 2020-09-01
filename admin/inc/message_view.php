@@ -1,7 +1,7 @@
 <?php
 require('../conf/message.php');
 ?>
-<div class="divleft">
+<div class="divleft" id="message">
     <h1> Уведомления </h1>
     <div class="loadcontent"></div>
     <div class="clear"></div>

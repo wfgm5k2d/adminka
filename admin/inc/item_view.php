@@ -1,4 +1,4 @@
-<div class="divleft">
+<div class="divleft" id="item">
     <h1> Товары </h1>
 
     <div class="loadcontent"></div>

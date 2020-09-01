@@ -5,7 +5,7 @@ trait ACDatabase
 {
     public static $dsn = 'mysql:dbname=adminka;host=mysql';
     public static $user = 'root';
-    public static $pass = 'iloveguns123';
+    public static $pass = 'root';
 
     /**
      * Объект PDO.

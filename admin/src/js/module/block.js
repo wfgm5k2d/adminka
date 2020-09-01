@@ -1,14 +1,6 @@
 import $ from 'jquery';
 
-let url = window.location.href;
-
-//Обрезаем конец:
-var from = url.search('admin/'); 
-var to = url.length;
-let newstr = url.substring(from,to);
-
-const PATH = newstr.split('_view')[0];
-if (PATH == 'admin/blocks')
+if($('#block').length > 0)
 {
     $(document).ready(function () {
         function loadcontent() {

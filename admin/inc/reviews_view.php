@@ -1,7 +1,7 @@
 <?php
 require('../conf/reviews.php');
 ?>
-<div class="divleft">
+<div class="divleft" id="reviews">
     <h1> Отзывы </h1>
     <div class="loadcontent"></div>
     <div class="clear"></div>

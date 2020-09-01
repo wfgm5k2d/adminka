@@ -4,7 +4,7 @@ $url = explode('/', $_SERVER['PHP_SELF']);
 
 if (empty($_GET['id'])) {
     ?>
-    <div class="divleft">
+    <div class="divleft" id="list">
         <h1> Лента </h1>
         <div class="loadcontent"></div>
         <div class="clear"></div>

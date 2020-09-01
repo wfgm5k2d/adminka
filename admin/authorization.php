@@ -26,7 +26,7 @@ if (!empty($login) && !empty($pass)) {
 <html>
 <head>
     <title>Вход в панель управления</title>
-    <link rel="stylesheet" type="text/css" href="inc/assets/css/styles.css">
+    <link rel="stylesheet" type="text/css" href="/admin/dist/assets/css/styles.css">
     <link rel="icon" type="image/png" href="favicon.png">
 
     <meta charset="utf-8">
@@ -40,7 +40,7 @@ if (!empty($login) && !empty($pass)) {
             <div class="authbckg-form-input">
                 <p>
                     <label for="login">логин</label>
-                    <input type="text" name="login" id="login" placeholder="логин">
+                    <input type="text" name="login" id="login" placeholder="логин" autofocus>
                 </p>
                 <p>
                     <label for="password">пароль</label>

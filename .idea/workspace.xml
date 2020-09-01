@@ -19,64 +19,103 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60408328-5bf8-4d0a-a45b-ad3372989be8" name="Default Changelist" comment="">
+    <list default="true" id="b166efee-adaa-421c-8426-93f462a946af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/class/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/conf/.htaccess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.babelrc" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.babelrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.eslintrc" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.eslintrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/admin/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/admin/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/authorization.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/authorization.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/conf/loaderImage.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/loaderImage.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/conf/menu_add.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/menu_add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/fonts/icofont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/fonts/icofont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/fonts/icofont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/fonts/icofont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/fonts/icofont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/icofont.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icofont/icofont.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/add.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/block-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/block.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/catalog-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/catalog.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/delete.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/downloadfile-white.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/downloadfile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/edit.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/exit-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/glas.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/home-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/home.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/item-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/item.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/list-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/list.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/menu-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/menu.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/message-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/new-message-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/new-message.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/new-reviews-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/page-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/page.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/reviews-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/setting-image.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/icons/setting.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/assets/js/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/inc/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/footer.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/conf/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/conf/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/core/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/admin/core/.htaccess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/core/ACConnect.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/core/ACConnect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/dist/assets/js/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/dist/assets/js/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/blocks_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/blocks_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/catalog_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/catalog_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/inc/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/item_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/item_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/inc/list_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/list_view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/menu_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/menu_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/message_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/message_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/options_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/options_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/page_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/page_view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/inc/reviews_view.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/inc/reviews_view.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/admin/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/add.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/block-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/block-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/block.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/block.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/catalog-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/catalog-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/catalog.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/catalog.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/delete.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/delete.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/downloadfile-white.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/downloadfile-white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/downloadfile.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/downloadfile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/edit.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/exit-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/exit-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/glas.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/glas.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/home-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/home-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/home.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/home.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/item-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/item-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/item.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/item.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/list-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/list-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/list.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/list.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/menu-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/menu-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/menu.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/menu.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/message-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/message-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/message.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/message.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/new-message-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/new-message-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/new-message.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/new-message.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/new-reviews-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/new-reviews-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/page-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/page-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/page.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/page.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/reviews-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/reviews-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/setting-image.png" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/setting-image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/assets/icons/setting.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/assets/icons/setting.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/module/block.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/block.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/module/catalog.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/catalog.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/module/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/item.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/js/module/list.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/list.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/src/js/module/menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/menu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/scss/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/scss/mixin/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/mixin/media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/scss/module/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/module/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/scss/variables/media.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/variables/media.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/src/webpack.config.babel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/module/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/module/options.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/options.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/module/page.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/page.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/js/module/reviews.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/js/module/reviews.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/base/background-admin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/base/background-admin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/base/base.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/base/base.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/base/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/base/fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/base/icofont/fonts/icofont.eot" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/base/icofont/fonts/icofont.eot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/base/icofont/fonts/icofont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/base/icofont/fonts/icofont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/base/icofont/fonts/icofont.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/base/icofont/fonts/icofont.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/base/icofont/fonts/icofont.woff" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/base/icofont/fonts/icofont.woff" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/base/icofont/fonts/icofont.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/base/icofont/fonts/icofont.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/base/icofont/icofont.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/base/icofont/icofont.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/lib/normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/lib/normalize.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/modifier/margin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/modifier/margin.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/module/media.sass" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/module/media.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/src/scss/util/grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/admin/src/scss/util/grid.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/webpack/config.dev.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/webpack/config.dev.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/webpack/config.prod.babel.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/webpack/config.prod.babel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/webpack/loader/html-loader.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/webpack/loader/html-loader.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/webpack/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/webpack/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/yarn-error.log" beforeDir="false" afterPath="$PROJECT_DIR$/admin/yarn-error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/admin/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/533f6490f6c3395f847968084ed1f4b7.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/533f6490f6c3395f847968084ed1f4b7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/68f79b5cf5e71212dec441724dd74f3e.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/68f79b5cf5e71212dec441724dd74f3e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/700f8eaf1106c561f5e6afddccc82510.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/700f8eaf1106c561f5e6afddccc82510.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/83a24fe24ece4387a5ee5f46ad10bcb8.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/83a24fe24ece4387a5ee5f46ad10bcb8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/88f347e7713f4f801f2df8f76b086403.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/88f347e7713f4f801f2df8f76b086403.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/9606f297ca77f934ab8e1d0601c680ea.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/9606f297ca77f934ab8e1d0601c680ea.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/9eff47d7e804480078b6c2a5a60571c1.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/9eff47d7e804480078b6c2a5a60571c1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/a143f520e5428a220aba7c0dbc6925bf.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/a143f520e5428a220aba7c0dbc6925bf.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/c4bc98fb4a6138b5ef24b4d330c83eb2.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/c4bc98fb4a6138b5ef24b4d330c83eb2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/ddbd25eec6cc141a2940518bb6afb887.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/ddbd25eec6cc141a2940518bb6afb887.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/e10c3c1522e2ac271652f3612c3dfe68.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/e10c3c1522e2ac271652f3612c3dfe68.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/f583bf1f7ce74ffa9efd0c6a0f6c510e.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/f583bf1f7ce74ffa9efd0c6a0f6c510e.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/f7b6b02d36f47567828fe52bcad59f6d.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/f7b6b02d36f47567828fe52bcad59f6d.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload/f7df119ac9e2963cc70d2ffce9196c2f.png" beforeDir="false" afterPath="$PROJECT_DIR$/upload/f7df119ac9e2963cc70d2ffce9196c2f.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +154,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/src/assets/img" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/dist/assets/js" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -132,11 +171,11 @@
       <recent name="$PROJECT_DIR$/admin/src/js/module" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/admin/dist/assets/js" />
       <recent name="$PROJECT_DIR$/admin/src/assets/img" />
       <recent name="$PROJECT_DIR$/admin/src/scss/module" />
       <recent name="$PROJECT_DIR$/admin/src/scss/base" />
       <recent name="$PROJECT_DIR$/admin/src/scss" />
-      <recent name="$PROJECT_DIR$/admin/src/js/lib" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -150,7 +189,7 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="60408328-5bf8-4d0a-a45b-ad3372989be8" name="Default Changelist" comment="" />
+      <changelist id="b166efee-adaa-421c-8426-93f462a946af" name="Default Changelist" comment="" />
       <created>1592834797076</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -181,6 +220,8 @@
       <workItem from="1595685435584" duration="6498000" />
       <workItem from="1595785702998" duration="18000" />
       <workItem from="1596029066192" duration="1788000" />
+      <workItem from="1598628945775" duration="22000" />
+      <workItem from="1598974914322" duration="5176000" />
     </task>
     <servers />
   </component>
@@ -200,6 +241,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="510" y="263" width="570" height="357" key="#Notifications" timestamp="1598975767579">
+      <screen x="0" y="27" width="1600" height="823" />
+    </state>
+    <state x="510" y="263" width="570" height="357" key="#Notifications/0.27.1600.823@0.27.1600.823" timestamp="1598975767579" />
     <state x="258" y="96" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1595005848913">
       <screen x="0" y="27" width="1600" height="823" />
     </state>
@@ -212,10 +257,10 @@
       <screen x="0" y="0" width="1600" height="857" />
     </state>
     <state x="573" y="337" key="ComposerInitDialogKey/0.0.1600.857@0.0.1600.857" timestamp="1594744441431" />
-    <state x="583" y="196" width="424" height="491" key="FileChooserDialogImpl" timestamp="1593076126878">
+    <state x="583" y="196" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598628965884">
       <screen x="0" y="27" width="1600" height="823" />
     </state>
-    <state x="583" y="196" width="424" height="491" key="FileChooserDialogImpl/0.27.1600.823@0.27.1600.823" timestamp="1593076126878" />
+    <state x="583" y="196" width="424" height="491" key="FileChooserDialogImpl/0.27.1600.823@0.27.1600.823" timestamp="1598628965884" />
     <state x="578" y="158" width="433" height="568" key="NewPhpClassDialog" timestamp="1592921694113">
       <screen x="0" y="27" width="1600" height="823" />
     </state>

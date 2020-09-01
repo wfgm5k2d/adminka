@@ -1,14 +1,7 @@
 import $ from 'jquery';
 
-let url = window.location.href;
-
-//Обрезаем конец:
-let from = url.search('admin/');
-let to = url.length;
-let newstr = url.substring(from, to);
-
-const PATH = newstr.split('_view')[0];
-if (PATH == 'admin/list') {
+if($('#list').length > 0)
+{
     $(document).ready(function () {
         let getParams = (new URL(document.location)).searchParams;
         let GET_VALUE = getParams.get("id");

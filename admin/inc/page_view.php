@@ -6,7 +6,7 @@ $url = explode('/', $_SERVER['REQUEST_URI']);
 if (in_array('page_view', $url) && empty($_GET['id'])) {
     $_SESSION['id'] = '';
     ?>
-    <div class="divleft">
+    <div class="divleft" id="page">
         <h1> Страница </h1>
         <div class="loadcontent"></div>
         <div class="clear"></div>

@@ -1,4 +1,4 @@
-<div class="divleft">
+<div class="divleft" id="block">
     <h1> Блоки </h1>
 
     <div class="loadcontent"></div>

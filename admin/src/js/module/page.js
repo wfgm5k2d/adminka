@@ -1,6 +1,8 @@
 import $ from 'jquery';
 
-$(document).ready(function() {
+if($('#page').length > 0)
+{
+	$(document).ready(function() {
 
 	function loadcontent()
 	{
@@ -209,3 +211,4 @@ $(document).ready(function() {
 		});
     });
 });
+}

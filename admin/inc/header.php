@@ -21,7 +21,7 @@ error_reporting('E_ALL');
     <?php
     $parentDir = basename(dirname($_SERVER['PHP_SELF']));
     if ($parentDir == 'inc')
-        $parentDir = 'assets';
+        $parentDir = '/assets';
     else
         $parentDir = '/admin/dist/assets';
     ?>

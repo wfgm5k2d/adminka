@@ -5440,6 +5440,11 @@ mute-stream@0.0.7:
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.7.tgz#3075ce93bc21b8fab43e1bc4da7e8115ed1e7bab"
   integrity sha1-MHXOk7whuPq0PhvE2n6BFe0ee6s=
 
+n@^6.7.0:
+  version "6.7.0"
+  resolved "https://registry.yarnpkg.com/n/-/n-6.7.0.tgz#95b4b5d338edb6959f2f4603400fcd093c372af1"
+  integrity sha512-l/pRcSEqR5PN7/j2Y5tY8KzW/tH0bVJ5UnceItO9mLjoHjNOaRc9cVkIUzUnfftQrcc5RXaqTRrtOPhQ9n10MQ==
+
 nan@^2.12.1, nan@^2.13.2:
   version "2.14.1"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.1.tgz#d7be34dfa3105b91494c3147089315eff8874b01"
