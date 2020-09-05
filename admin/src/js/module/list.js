@@ -7,6 +7,16 @@ if($('#list').length > 0)
         let GET_VALUE = getParams.get("id");
         $(".ajax_addblock-parent").val(GET_VALUE);
 
+        /**
+         * CKEDITOR
+         */
+        const description = CKEDITOR.replace( 'descript', {
+            language: 'ru',
+        });
+        const content = CKEDITOR.replace( 'content', {
+            language: 'ru',
+        });
+
         function loadcontent() {
             $('.loadcontent').html("");
             $.ajax({
@@ -41,10 +51,9 @@ if($('#list').length > 0)
 
         loadcontentplus();
 
-        $('.new').click(function () {
+        $('body').on('click', '.new', function () {
             $('.divright').fadeIn();
             $('.addblock').fadeIn();
-            $('.addblockplus').hide();
             $('.delblock').hide();
             $('.editblock').hide();
             $('.editblockplus').hide();
@@ -53,6 +62,8 @@ if($('#list').length > 0)
 
         $('.ajax_addblock-cancel, .ajax_editblock-cancel').click(function () {
             $('.divright').fadeOut();
+            description.setData('');
+            content.setData('');
         });
 
         $('body').on('click', '.glass', function () {
@@ -76,9 +87,7 @@ if($('#list').length > 0)
             $('.deleteblock-id').val(title);
         });
 
-        $('body').on('click', '.edit, .editplus', function () {
-            $('#description_editor').prev().text('');
-            $('#content_editor').prev().text('');
+        $('body').on('click', '.edit', function () {
             $('.divright').fadeIn();
             $('.editblock').fadeIn();
             $('.delblock').hide();
@@ -92,33 +101,44 @@ if($('#list').length > 0)
             let editImage = $(this).data('image');
             $('.ajax_editblock-id').val(titleId);
             $('.ajax_editblock-name').val(titleName);
-            $('.ajax_editblock-descript, .ajax_editblock-content').prev().text('');
-            $('.ajax_editblock-descript-plus').text(editDescription);
-            $('.ajax_editblock-content-plus').text(editContent);
-            $('.seeImage-image').css('background', 'url("/upload/'+editImage+'")');
+            description.setData(editDescription);
+            content.setData(editContent);
+            if(editImage == 'null')
+            {
+                $('.delete-image').hide();
+            }
+            else
+            {
+                $('.seeImage-image').css('background', 'url("/upload/'+editImage+'")');
+            }
             $('.form-edit-img').val(titleId);
         });
 
+        let titleId = null;
         $('body').on('click', '.editplus', function () {
-            $('#description_editor').prev().text('');
-            $('#content_editor').prev().text('');
             $('.divright').fadeIn();
             $('.editblockplus').fadeIn();
             $('.editblock').hide();
             $('.delblock').hide();
             $('.addblock').hide();
             $('.addblockplus').hide();
-            let titleId = $(this).attr('data-id');
+            titleId = $(this).attr('data-id');
             let titleName = $(this).attr('data-name');
             let editDescription = $(this).attr('data-descript');
             let editContent = $(this).attr('data-content');
             let editImage = $(this).data('image');
+            description.setData(editDescription);
+            content.setData(editContent);
             $('.ajax_editblock-id-plus').val(titleId);
             $('.ajax_editblock-name-plus').val(titleName);
-            $('.ajax_editblock-descript-plus, .ajax_editblock-content-plus').prev().text('');
-            $('.ajax_editblock-descript-plus').prev().append(editDescription);
-            $('.ajax_editblock-content-plus').prev().append(editContent);
-            $('.seeImage-image').css('background', 'url("/upload/'+editImage+'")');
+            if(editImage == 'null')
+            {
+                $('.delete-image').hide();
+            }
+            else
+            {
+                $('.seeImage-image').css('background', 'url("/upload/'+editImage+'")');
+            }
             $('.form-edit-img').val(titleId);
         });
 
@@ -177,10 +197,13 @@ if($('#list').length > 0)
             event.preventDefault();
             let data = $(this).serialize();
 
+            let sDescriptionText = description.getData();
+            let sContentText = content.getData();
+
             $.ajax({
                 url: 'conf/list_edit.php',
                 type: 'POST',
-                data: data,
+                data: data+'&descriptionText=' + sDescriptionText + '&contentText=' + sContentText,
                 returnType: 'json',
                 cache: false,
                 success: function (jsondata) {
@@ -196,5 +219,111 @@ if($('#list').length > 0)
             });
         });
 
+        /**
+         * Создаем превью картинки
+         */
+
+        var maxFileSize = 2 * 1024 * 1024; // (байт) Максимальный размер файла (2мб)
+        var queue = {};
+        var form = $('form#uploadImages');
+        var imagesList = $('#uploadImagesList');
+
+        var itemPreviewTemplate = imagesList.find('.item.template').clone();
+        itemPreviewTemplate.removeClass('template');
+        imagesList.find('.item.template').remove();
+
+
+        $('#addImages').on('change', function () {
+            var files = this.files;
+
+            for (var i = 0; i < files.length; i++) {
+                var file = files[i];
+
+                if ( !file.type.match(/image\/(jpeg|jpg|png|gif)/) ) {
+                    alert( 'Фотография должна быть в формате jpg, png или gif' );
+                    continue;
+                }
+
+                if ( file.size > maxFileSize ) {
+                    alert( 'Размер фотографии не должен превышать 2 Мб' );
+                    continue;
+                }
+
+                preview(files[i]);
+            }
+
+            this.value = '';
+        });
+
+        // Создание превью
+        function preview(file) {
+            var reader = new FileReader();
+            reader.addEventListener('load', function(event) {
+                var img = document.createElement('img');
+
+                var itemPreview = itemPreviewTemplate.clone();
+
+                itemPreview.find('.img-wrap img').attr('src', event.target.result);
+                itemPreview.data('id', file.name);
+
+                imagesList.append(itemPreview);
+
+                queue[file.name] = file;
+
+            });
+            reader.readAsDataURL(file);
+        }
+
+        // Удаление фотографий
+        imagesList.on('click', '.delete-link', function () {
+            var item = $(this).closest('.item'),
+                id = item.data('id');
+
+            delete queue[id];
+
+            item.remove();
+        });
+
+
+        // Отправка формы
+        form.on('submit', function(event) {
+            let formData = new FormData(this);
+            for (let id in queue) {
+                formData.append('images[]', queue[id]);
+            }
+
+            $.ajax({
+                url: $(this).attr('action'),
+                type: 'POST',
+                data: formData,
+                async: true,
+                success: function (res) {
+                },
+                cache: false,
+                contentType: false,
+                processData: false
+            });
+
+            return false;
+        });
+
+        $('.delete-image').on('click', function(){
+            const id = $('.editplus').data('id');
+            $.ajax({
+                url: 'conf/loaderImage.php',
+                type: 'POST',
+                data: 'delete=Y&id=' + id,
+                success: function (res) {
+                    $('.seeImage-image').css('filter', 'grayscale(1)');
+                    $('.seeImage-image, .delete-image').fadeOut(500);
+                    loadcontentplus();
+                },
+            });
+        });
+
+        $('.bigdownloadbutton').on('click', function(){
+            $('.seeImage-image, .delete-image').fadeIn(2000);
+            $('.seeImage-image').css('filter', 'none');
+        });
     });
 }

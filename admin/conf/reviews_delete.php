@@ -1,17 +1,13 @@
 <?php
-include('conf.php');
-
 if(isset($_POST['id']))
 {
-	$id = $_POST['id'];
-    $res = mysqli_real_escape_string($link, $id);
-     
-    $result =mysqli_query($link, "DELETE FROM reviews WHERE id = '$id'");
+    $nId = $_POST['id'];
 
-    if ($result)
-    	echo '1';
+    require '../core/ACConnect.php';
+    $query = ACDatabase::add("DELETE FROM reviews WHERE id = ?", $nId);
+
+    if ($query)
+        echo '1';
     else
-    	die();
-
+        echo '0';
 }
-?>

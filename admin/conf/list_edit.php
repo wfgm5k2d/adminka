@@ -6,8 +6,8 @@ if($_REQUEST['parent'] != '')
 {
     $nId = $_REQUEST['id'];
     $sName = $_REQUEST['name'];
-    $sDescript = $_REQUEST['descript'];
-    $sContent = $_REQUEST['content'];
+    $sDescript = $_REQUEST['descriptionText'];
+    $sContent = $_REQUEST['contentText'];
     $sUrl = str2url($sName);
 
     require '../core/ACConnect.php';
@@ -22,8 +22,8 @@ else
 {
     $nId = $_REQUEST['id'];
     $sName = $_REQUEST['name'];
-    $sDescript = $_REQUEST['descript'];
-    $sContent = $_REQUEST['content'];
+    $sDescript = $_REQUEST['descriptionText'];
+    $sContent = $_REQUEST['contentText'];
     $sUrl = str2url($sName);
 
     require '../core/ACConnect.php';

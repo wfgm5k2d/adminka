@@ -1,6 +1,5 @@
 <div class="divleft" id="options">
     <h1> Настройки </h1>
-
     <div class="loadcontent"></div>
     <div class="clear"></div>
 </div>
@@ -8,7 +7,7 @@
 <div class="divright">
     <div class="editblock">
         <h1> Изменить настройки сайта </h1>
-        <div class="ajax_editblock">
+        <form class="ajax_editblock">
             <input type="hidden" name="id" class="ajax_editblock-id">
             <p class="after">Заголовок сайта:
                 <input type="text" name="title" value="" class="ajax_editblock-title input"
@@ -17,6 +16,10 @@
             <p class="after">Название сайта:
                 <input type="text" name="site_name" value="" class="ajax_editblock-site_name input"
                        placeholder="example.com">
+            </p>
+            <p class="after">Email (для почты):
+                <input type="text" name="email" value="" class="ajax_editblock-site_email input"
+                       placeholder="admin@admin.com">
             </p>
             <p class="after-textarea">Описание сайта: <br>
                 <textarea type="text" name="description" placeholder="Ваше описание сайта (не более 65 символов)"
@@ -40,7 +43,7 @@
             </p>
             </p>
             <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save save">
-        </div>
+        </form>
     </div>
 </div>
 <div class="clear"></div>

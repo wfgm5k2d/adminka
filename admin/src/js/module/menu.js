@@ -3,6 +3,9 @@ import $ from 'jquery';
 if($('#menu').length > 0)
 {
 	$(document).ready(function () {
+		let getParams = (new URL(document.location)).searchParams;
+		let GET_VALUE = getParams.get("id");
+		$(".ajax_addblock-parent").val(GET_VALUE);
 
 		function loadcontent() {
 			$('.loadcontent').html("");
@@ -26,11 +29,11 @@ if($('#menu').length > 0)
 			$.ajax({
 				url: 'conf/menu_load2.php',
 				type: 'POST',
-				data: 'jsondata',
+				data: 'id='+GET_VALUE,
 				cache: false,
 				success: function (jsondata) {
 					$.each(jsondata, function (indx, element) {
-						$('.loadcontentplus').append('<div class="elnameplus"><div class="elname__a">' + element.namedop + '</div><div class="delete" data-id="' + element.iddop + '"></div><div class="editplus" data-id="' + element.iddop + '" data-name="' + element.namedop + '"></div></div>');
+						$('.loadcontentplus').append('<div class="elnameplus"><div class="elname__a">' + element.name + '</div><div class="delete" data-id="' + element.id + '"></div><div class="editplus" data-id="' + element.id + '" data-name="' + element.name + '"></div></div>');
 					});
 				}
 			});
@@ -58,7 +61,6 @@ if($('#menu').length > 0)
 			$('.delblock').hide();
 			$('.editblock').hide();
 			$('.editblockplus').hide();
-			idglass = $(this).attr('data-id'); // this showed up as the text I was expecting
 		});
 
 		$('body').on('click', '.delete', function () {
@@ -77,8 +79,6 @@ if($('#menu').length > 0)
 			$('.editblock').fadeIn();
 			$('.delblock').hide();
 			$('.addblock').hide();
-			$('.addblockplus').hide();
-			$('.editblockplus').hide();
 			var titleId = $(this).attr('data-id');
 			var titleName = $(this).attr('data-name');
 			$('.ajax_editblock-id').val(titleId);
@@ -87,11 +87,9 @@ if($('#menu').length > 0)
 
 		$('body').on('click', '.editplus', function () {
 			$('.divright').fadeIn();
-			$('.editblockplus').fadeIn();
-			$('.editblock').hide();
+			$('.editblock').fadeIn();
 			$('.delblock').hide();
 			$('.addblock').hide();
-			$('.addblockplus').hide();
 			var titleId = $(this).attr('data-id');
 			var titleName = $(this).attr('data-name');
 			$('.ajax_editblock-id-plus').val(titleId);
@@ -99,7 +97,7 @@ if($('#menu').length > 0)
 		});
 
 		$('.deleteblock-btn').click(function () {
-			var id = $('.deleteblock-id').val();
+			let id = $('.deleteblock-id').val();
 			$.ajax({
 				url: 'conf/menu_delete.php',
 				type: 'POST',
@@ -133,47 +131,15 @@ if($('#menu').length > 0)
 			});
 		});
 
-		$('.ajax_addblock-save-plus').click(function () {
-			var name = $('.ajax_addblock-name-plus').val();
-			var parent = idglass;
-			$.ajax({
-				url: 'conf/menu_add.php',
-				type: 'POST',
-				data: 'name=' + name + '&parent=' + parent,
-				cache: false,
-				success: function (jsondata) {
-					$('.divright').hide();
-					$('.addblock').hide();
-					loadcontent();
-					loadcontentplus();
-				}
-			});
-		});
+		$('.ajax_editblock').on("submit", function (event) {
+			event.preventDefault();
+			let data = $(this).serialize();
 
-		$('.ajax_editblock-save').click(function () {
-			var id = $('.ajax_editblock-id').val();
-			var name = $('.ajax_editblock-name').val();
 			$.ajax({
 				url: 'conf/menu_edit.php',
 				type: 'POST',
-				data: 'id=' + id + '&name=' + name,
+				data: data,
 				cache: false,
-				success: function (jsondata) {
-					$('.divright').hide();
-					$('.editblock').hide();
-					loadcontent();
-					loadcontentplus();
-				}
-			});
-		});
-
-		$('.ajax_editblock-save-plus').click(function () {
-			var id = $('.ajax_editblock-id-plus').val();
-			var name = $('.ajax_editblock-name-plus').val();
-			$.ajax({
-				url: 'conf/menu_edit.php',
-				type: 'POST',
-				data: 'id=' + id + '&name=' + name,
 				success: function (jsondata) {
 					$('.divright').hide();
 					$('.editblock').hide();

@@ -1,6 +1,3 @@
-<?php
-require('../conf/reviews.php');
-?>
 <div class="divleft" id="reviews">
     <h1> Отзывы </h1>
     <div class="loadcontent"></div>
@@ -11,10 +8,10 @@ require('../conf/reviews.php');
 <div class="divright">
     <div class="viewblock">
         <h1> Отзыв </h1>
-        <div class="ajax_addblock">
+        <form class="ajax_editblock">
             <?php
-            if ($REVIEWS) {
-                foreach ($REVIEWS as $element) {
+            if (ACReviews::getReviews()) {
+                foreach (ACReviews::getReviews() as $element) {
                     if ($element['name'] != '')
                         echo '
                                 <p class="after">Имя:
@@ -44,8 +41,8 @@ require('../conf/reviews.php');
                 }
             }
             ?>
-            <p class="after-textarea">Ваш ответ: <br>
-                <textarea type="text" name="reviews" id="description_editor" class="show-answer"></textarea>
+            <p class="after-textarea" style="height: 130px">Ваш ответ: <br>
+                <textarea type="text" name="answer" id="description_editor" class="show-answer"></textarea>
             </p>
             <p class="after" style="display: flex; align-items: center">Активировать:
                 <label class="switch">
@@ -53,21 +50,56 @@ require('../conf/reviews.php');
                     <span class="slider round"></span>
                 </label>
             </p>
+            <p class="after">Изображение:
+            <div class="seeImage">
+                <div class="delete-image"></div>
+                <form action="/admin/conf/loaderImage.php" method="post" enctype="multipart/form-data" id="uploadImages"
+                      class="loadToImage">
+                    <label for="addImages" class="bigdownloadbutton">Добавьте изображение
+                        <div class="imagepodstava"></div>
+                    </label>
+                    <input type="file" id="addImages" multiple="" class="upload-image">
+                    <input type="hidden" name="id" value="" class="form-edit-img">
+                    <input type="hidden" name="name-image" value="reviews">
+                    <div class="clear"></div>
+                    <div>
+                        <button type="submit" class="add_question" name="editImage">
+                            Загрузить изображение
+                            <!--                            <div class="information">-->
+                            <!--                                <span class="information--red">Загрузка изображений требует перезагрузки страницы.</span>-->
+                            <!--                                Прежде чем загрузить изображение обновите название ленты и нажмите <span-->
+                            <!--                                        class="information--green">Сохранить</span>, чтобы избежать потери данных.-->
+                            <!--                            </div>-->
+                        </button>
+                    </div>
+                </form>
+                <div class="seeImage-image">
+                    <ul id="uploadImagesList">
+                        <li class="item template">
+                            <span class="img-wrap">
+                                <img src="image.jpg" alt="" class="img-wrap__image">
+                            </span>
+                            <span class="delete-link"></span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            </p>
             <div class="clear"></div>
             <input type="submit" name="edit" value="Сохранить" class="ajax_editblock-save save">
             <input type="submit" name="cancel" value="Отменить" class="ajax_editblock-cancel cancel">
-        </div>
+        </form>
     </div>
     <div class="addblock">
         <h1> Добавить отзыв </h1>
-        <div class="ajax_addblock">
+        <form class="ajax_addblock">
             <p class="after">Имя:
                 <input type="text" class="show-add-name input" placeholder="Обязательно для заполнения!">
             </p>
             <p class="after">E-mail:
                 <input type="text" class="show-add-email input" placeholder="Обязательно для заполнения!">
             </p>
-            <p class="after-textarea">Отзыв: <br>
+            <p class="after-textarea" style="height: 130px">Отзыв: <br>
                 <textarea type="text" name="reviews" class="show-add-message"
                           placeholder="Обязательно для заполнения!"></textarea>
             </p>
@@ -79,7 +111,7 @@ require('../conf/reviews.php');
             </p>
             <input type="submit" name="edit" value="Сохранить" class="ajax_addblock-save save">
             <input type="submit" name="cancel" value="Отменить" class="ajax_addblock-cancel cancel">
-        </div>
+        </form>
     </div>
 
     <div class="delblock">
@@ -91,4 +123,3 @@ require('../conf/reviews.php');
     </div>
 </div>
 <div class="clear"></div>
-<script type="text/javascript" src="../conf/reviews.js"></script>

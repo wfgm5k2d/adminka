@@ -1,26 +1,24 @@
 <?php
 
-include('conf.php');
 include('function.php');
-     
-// если запрос POST
 
-if(isset($_POST['title']) || isset($_POST['description']) || isset($_POST['og_title']) || isset($_POST['og_description']) || isset($_POST['site_name']) || isset($_POST['keywords']) || isset($_POST['pass']))
-{
-    $title = filt($_POST['title']);
-    $description = filt($_POST['description']);
-    $og_title = filt($_POST['og_title']);
-    $og_description = filt($_POST['og_description']);
-    $site_name = filt($_POST['site_name']);
-    $keywords = filt($_POST['keywords']);
-    $password = filt($_POST['pass']);
+if (isset($_REQUEST)) {
+    $sTitle = ($_POST['title']) ? filt($_POST['title']) : '';
+    $site_name = ($_POST['site_name']) ? filt($_POST['site_name']) : '';
+    $email = ($_POST['email']) ? filt($_POST['email']) : '';
+    $sDescription = ($_POST['description']) ? filt($_POST['description']) : '';
+    $og_title = ($_POST['og_title']) ? filt($_POST['og_title']) : '';
+    $og_description = ($_POST['og_description']) ? filt($_POST['og_description']) : '';
+    $keywords = ($_POST['keywords']) ? filt($_POST['keywords']) : '';
+    $password = ($_POST['pass']) ? filt($_POST['pass']) : '';
     $pass = md5($password);
 
-    $query ="UPDATE options SET title='$title', description='$description', og_title='$og_title', og_description='$og_description', site_name='$site_name', keywords='$keywords', pass='$pass'";
-    $result = mysqli_query($link, $query) or die("Ошибка " . mysqli_error($link));
+    require '../core/ACConnect.php';
+    $query = ACDatabase::set("UPDATE options SET title = ?, site_name = ?, email =?, description = ?, og_title = ?, og_description = ?, keywords = ?", array($sTitle, $site_name, $email, $sDescription, $og_title, $og_description, $keywords));
 
-    if ($result)
-    	echo '1';
-    else
-    	echo '0';
+    $sitePass = ACDatabase::getValue("SELECT pass FROM options");
+    if($sitePass !== $password)
+    {
+        $query = ACDatabase::set("UPDATE options SET pass = ?", array($pass));
+    }
 }

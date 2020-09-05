@@ -42,4 +42,14 @@ class ACMenu
         else
             return ACErrors::getError(1);
     }
+
+    /**
+     * @param $nId
+     * @return boolean
+     */
+    public static function delete($nId)
+    {
+        ACDatabase::set("DELETE FROM `menu` WHERE `id` = ?", $nId);
+        ACDatabase::set("DELETE FROM `menu` WHERE `parent` = ?", $nId);
+    }
 }

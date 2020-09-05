@@ -9,7 +9,7 @@ if($_REQUEST['parent'] != '')
     $sParent = $_REQUEST['parent'];
 
     require '../core/ACConnect.php';
-    $query = ACDatabase::add("INSERT INTO list SET name = ?, url = ?, parent = ?", array($sName, $sUrl, $sParent));
+    $query = ACDatabase::add("INSERT INTO menu SET name = ?, url = ?, parent = ?", array($sName, $sUrl, $sParent));
 
     if ($query)
         echo 1;
@@ -23,7 +23,7 @@ else
     $sUrl = str2url($sName);
 
     require '../core/ACConnect.php';
-    $query = ACDatabase::add("INSERT INTO list SET name = ?, url = ?, parent = ?", array($sName, $sUrl, $sParent));
+    $query = ACDatabase::add("INSERT INTO menu SET name = ?, url = ?, parent = ?", array($sName, $sUrl, $sParent));
 
     if ($query)
         echo 1;

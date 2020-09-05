@@ -1,6 +1,3 @@
-<?php
-require('../conf/message.php');
-?>
 <div class="divleft" id="message">
     <h1> Уведомления </h1>
     <div class="loadcontent"></div>
@@ -12,8 +9,8 @@ require('../conf/message.php');
         <h1> Новое уведомление! </h1>
         <div class="ajax_addblock">
             <?php
-            if ($MSG) {
-                foreach ($MSG as $element) {
+            if (ACMessage::getMessage()) {
+                foreach (ACMessage::getMessage() as $element) {
                     if ($element['message'] != '')
                         echo '
                                 <p class="after-textarea">Сообщение:
@@ -97,4 +94,3 @@ require('../conf/message.php');
     </div>
 </div>
 <div class="clear"></div>
-<script type="text/javascript" src="../conf/message.js"></script>

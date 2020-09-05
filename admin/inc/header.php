@@ -42,7 +42,6 @@ error_reporting('E_ALL');
     ?>
 
     <title><?php echo $_SESSION['title']; ?></title>
-
 </head>
 <body id="background-admin">
 <div class="wrapper">

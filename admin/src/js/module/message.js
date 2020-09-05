@@ -6,7 +6,7 @@ if($('#message').length > 0) {
 		function loadcontent() {
 			$('.loadcontent').html("");
 			$.ajax({
-				url: '../conf/message_load.php',
+				url: 'conf/message_load.php',
 				type: 'POST',
 				data: 'jsondata',
 				cache: false,
@@ -31,7 +31,7 @@ if($('#message').length > 0) {
 		$('.deleteblock-btn').click(function () {
 			let id = $('.deleteblock-id').val();
 			$.ajax({
-				url: '../conf/message_delete.php',
+				url: 'conf/message_delete.php',
 				type: 'POST',
 				data: 'id=' + id,
 				cache: false,
