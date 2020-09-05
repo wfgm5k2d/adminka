@@ -2,10 +2,10 @@
 -- version 5.0.2
 -- https://www.phpmyadmin.net/
 --
--- Хост: mysql:3306
--- Время создания: Июн 24 2020 г., 08:58
--- Версия сервера: 5.7.30
--- Версия PHP: 7.4.6
+-- Host: mysql:3306
+-- Generation Time: Sep 05, 2020 at 06:31 PM
+-- Server version: 5.7.31
+-- PHP Version: 7.4.8
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -18,13 +18,13 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- База данных: `adminka`
+-- Database: `adminka`
 --
 
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `blocks`
+-- Table structure for table `blocks`
 --
 
 CREATE TABLE `blocks` (
@@ -34,19 +34,10 @@ CREATE TABLE `blocks` (
   `ident` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Дамп данных таблицы `blocks`
---
-
-INSERT INTO `blocks` (`id`, `name`, `value`, `ident`) VALUES
-(1, 'Номер телефона', '79527560844', 'phone'),
-(2, 'Email', 'nktpgrlv@gmail.com', 'email'),
-(3, 'Адрес', 'ул. Котовского 6', 'address');
-
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `catalog`
+-- Table structure for table `catalog`
 --
 
 CREATE TABLE `catalog` (
@@ -58,7 +49,7 @@ CREATE TABLE `catalog` (
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `ch_catalog`
+-- Table structure for table `ch_catalog`
 --
 
 CREATE TABLE `ch_catalog` (
@@ -71,7 +62,7 @@ CREATE TABLE `ch_catalog` (
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `item`
+-- Table structure for table `item`
 --
 
 CREATE TABLE `item` (
@@ -93,7 +84,7 @@ CREATE TABLE `item` (
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `list`
+-- Table structure for table `list`
 --
 
 CREATE TABLE `list` (
@@ -110,7 +101,7 @@ CREATE TABLE `list` (
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `menu`
+-- Table structure for table `menu`
 --
 
 CREATE TABLE `menu` (
@@ -125,7 +116,7 @@ CREATE TABLE `menu` (
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `message`
+-- Table structure for table `message`
 --
 
 CREATE TABLE `message` (
@@ -145,17 +136,10 @@ CREATE TABLE `message` (
   `hide` int(11) NOT NULL DEFAULT '1'
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
---
--- Дамп данных таблицы `message`
---
-
-INSERT INTO `message` (`id`, `message`, `name`, `lastname`, `color`, `size`, `type`, `theme`, `material`, `email`, `phone`, `adress`, `count`, `hide`) VALUES
-(1, '', 'Никита Вербух', '', '', '', '', '', '', 'nktpgrlv@gmail.com', '89528912911', '', NULL, 1);
-
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `moduls`
+-- Table structure for table `moduls`
 --
 
 CREATE TABLE `moduls` (
@@ -167,7 +151,7 @@ CREATE TABLE `moduls` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `moduls`
+-- Dumping data for table `moduls`
 --
 
 INSERT INTO `moduls` (`id`, `module`, `url`, `img`, `hide`) VALUES
@@ -177,19 +161,20 @@ INSERT INTO `moduls` (`id`, `module`, `url`, `img`, `hide`) VALUES
 (4, 'Лента', 'list_view', 'list-image', 1),
 (5, 'Меню', 'menu_view', 'menu-image', 1),
 (6, 'Уведомления', 'message_view', 'message-image', 1),
-(7, 'Страницы', 'page_view', 'page-image', 1),
-(8, 'Отзывы', 'reviews_view', 'reviews-image', 1),
+(7, 'Страницы', 'page_view', 'page-image', 0),
+(8, 'Отзывы', 'reviews_view', 'reviews-image', 0),
 (9, 'Настройки', 'options_view', 'setting-image', 1);
 
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `options`
+-- Table structure for table `options`
 --
 
 CREATE TABLE `options` (
   `id` int(11) NOT NULL,
   `title` text,
+  `email` text NOT NULL,
   `site_name` text,
   `description` longtext,
   `og_title` text,
@@ -200,16 +185,16 @@ CREATE TABLE `options` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `options`
+-- Dumping data for table `options`
 --
 
-INSERT INTO `options` (`id`, `title`, `site_name`, `description`, `og_title`, `og_description`, `keywords`, `login`, `pass`) VALUES
-(1, '', '', '', '', '', '', 'admin', '77e2edcc9b40441200e31dc57dbb8829');
+INSERT INTO `options` (`id`, `title`, `email`, `site_name`, `description`, `og_title`, `og_description`, `keywords`, `login`, `pass`) VALUES
+(1, '', '', '', '', '', '', '', 'admin', '21232f297a57a5a743894a0e4a801fc3');
 
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `page`
+-- Table structure for table `page`
 --
 
 CREATE TABLE `page` (
@@ -225,7 +210,7 @@ CREATE TABLE `page` (
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `reviews`
+-- Table structure for table `reviews`
 --
 
 CREATE TABLE `reviews` (
@@ -241,7 +226,7 @@ CREATE TABLE `reviews` (
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `stat`
+-- Table structure for table `stat`
 --
 
 CREATE TABLE `stat` (
@@ -252,7 +237,7 @@ CREATE TABLE `stat` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `stat`
+-- Dumping data for table `stat`
 --
 
 INSERT INTO `stat` (`id`, `ip`, `uniqueness`, `date`) VALUES
@@ -261,7 +246,7 @@ INSERT INTO `stat` (`id`, `ip`, `uniqueness`, `date`) VALUES
 -- --------------------------------------------------------
 
 --
--- Структура таблицы `visits`
+-- Table structure for table `visits`
 --
 
 CREATE TABLE `visits` (
@@ -272,7 +257,7 @@ CREATE TABLE `visits` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Дамп данных таблицы `visits`
+-- Dumping data for table `visits`
 --
 
 INSERT INTO `visits` (`id`, `date`, `uniques`, `views`) VALUES
@@ -286,176 +271,176 @@ INSERT INTO `visits` (`id`, `date`, `uniques`, `views`) VALUES
 (22, '2020-06-24', 1, 1);
 
 --
--- Индексы сохранённых таблиц
+-- Indexes for dumped tables
 --
 
 --
--- Индексы таблицы `blocks`
+-- Indexes for table `blocks`
 --
 ALTER TABLE `blocks`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `catalog`
+-- Indexes for table `catalog`
 --
 ALTER TABLE `catalog`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `ch_catalog`
+-- Indexes for table `ch_catalog`
 --
 ALTER TABLE `ch_catalog`
   ADD PRIMARY KEY (`id`),
   ADD KEY `parent` (`parent`);
 
 --
--- Индексы таблицы `item`
+-- Indexes for table `item`
 --
 ALTER TABLE `item`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `list`
+-- Indexes for table `list`
 --
 ALTER TABLE `list`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `menu`
+-- Indexes for table `menu`
 --
 ALTER TABLE `menu`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `message`
+-- Indexes for table `message`
 --
 ALTER TABLE `message`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `moduls`
+-- Indexes for table `moduls`
 --
 ALTER TABLE `moduls`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `options`
+-- Indexes for table `options`
 --
 ALTER TABLE `options`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `page`
+-- Indexes for table `page`
 --
 ALTER TABLE `page`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `reviews`
+-- Indexes for table `reviews`
 --
 ALTER TABLE `reviews`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `stat`
+-- Indexes for table `stat`
 --
 ALTER TABLE `stat`
   ADD PRIMARY KEY (`id`);
 
 --
--- Индексы таблицы `visits`
+-- Indexes for table `visits`
 --
 ALTER TABLE `visits`
   ADD PRIMARY KEY (`id`);
 
 --
--- AUTO_INCREMENT для сохранённых таблиц
+-- AUTO_INCREMENT for dumped tables
 --
 
 --
--- AUTO_INCREMENT для таблицы `blocks`
+-- AUTO_INCREMENT for table `blocks`
 --
 ALTER TABLE `blocks`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT для таблицы `catalog`
+-- AUTO_INCREMENT for table `catalog`
 --
 ALTER TABLE `catalog`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT для таблицы `ch_catalog`
+-- AUTO_INCREMENT for table `ch_catalog`
 --
 ALTER TABLE `ch_catalog`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT для таблицы `item`
+-- AUTO_INCREMENT for table `item`
 --
 ALTER TABLE `item`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT для таблицы `list`
+-- AUTO_INCREMENT for table `list`
 --
 ALTER TABLE `list`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT для таблицы `menu`
+-- AUTO_INCREMENT for table `menu`
 --
 ALTER TABLE `menu`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT для таблицы `message`
+-- AUTO_INCREMENT for table `message`
 --
 ALTER TABLE `message`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT для таблицы `moduls`
+-- AUTO_INCREMENT for table `moduls`
 --
 ALTER TABLE `moduls`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
--- AUTO_INCREMENT для таблицы `options`
+-- AUTO_INCREMENT for table `options`
 --
 ALTER TABLE `options`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
 --
--- AUTO_INCREMENT для таблицы `page`
+-- AUTO_INCREMENT for table `page`
 --
 ALTER TABLE `page`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
 
 --
--- AUTO_INCREMENT для таблицы `reviews`
+-- AUTO_INCREMENT for table `reviews`
 --
 ALTER TABLE `reviews`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
--- AUTO_INCREMENT для таблицы `stat`
+-- AUTO_INCREMENT for table `stat`
 --
 ALTER TABLE `stat`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
 
 --
--- AUTO_INCREMENT для таблицы `visits`
+-- AUTO_INCREMENT for table `visits`
 --
 ALTER TABLE `visits`
   MODIFY `id` int(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=23;
 
 --
--- Ограничения внешнего ключа сохраненных таблиц
+-- Constraints for dumped tables
 --
 
 --
--- Ограничения внешнего ключа таблицы `ch_catalog`
+-- Constraints for table `ch_catalog`
 --
 ALTER TABLE `ch_catalog`
   ADD CONSTRAINT `ch_catalog_ibfk_1` FOREIGN KEY (`parent`) REFERENCES `catalog` (`id`) ON DELETE CASCADE ON UPDATE CASCADE;
