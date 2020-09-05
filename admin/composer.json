@@ -1,0 +1,13 @@
+{
+    "name": "godlike/admin",
+    "authors": [
+        {
+            "name": "wfgm5k2d",
+            "email": "nktpgrlv@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "build": "webpack"
+    }
+}
